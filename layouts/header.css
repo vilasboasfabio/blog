@@ -1,1 +1,11 @@
+#logos {
+    display: flex;
+}
 
+#logo1 {
+    margin:auto;
+}
+
+#logo2 {
+    margin-top:1%;
+}
