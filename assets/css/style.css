@@ -97,4 +97,6 @@ h4 {
 
 .msg {
     margin: 2%;
+    margin-top:-1%;
+    text-align: justify;
 }
