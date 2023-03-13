@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: #242424;
+    color: white;
+}
+#botao{
+    background-color: #8bb7fb;
+}
+#botao:hover{
+    background-color: white;
+    opacity: 0.30;
+}
