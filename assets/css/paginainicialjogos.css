@@ -21,17 +21,20 @@ article{
     align-items: center;
     margin-left: 40%;
     margin-top: auto;
+    display: flex;
 }
 #header01{
     width: 20%;
     margin-top: auto;
 }
 #escritalogo {
-    margin-right: 50%;
+    margin-left: -45%;
     border: none;
 }
 #desenho {
     border: none;
+    margin-left: 120%;
+
 }
 #bltmenu {
     border: none;
