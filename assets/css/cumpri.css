@@ -3,18 +3,24 @@
     width: 40%;
     color: whitesmoke;
     margin:auto;
-    border:5px green ridge;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     margin-top: 2%;
+    border-radius:5%;
+    background-color: #141212;
 }
 
 #foto1-text {
     text-align: justify;
     margin-top:2%;
     margin-bottom:2%;
+    padding-bottom:2% ;
 }
 
 #foto1 {
-    border: green 5px ridge;
+    border: outset whitesmoke 3px;
+    border-radius: 3%;
 }
 
 body {
@@ -25,18 +31,21 @@ body {
     color: whitesmoke;
     text-align: center;
     margin:4%;
+    font-family:Bernard MT Condensed;
 }
 
 #skate1 {
     float: left;
-    border:2px green ridge;
+    border: outset whitesmoke 3px;
     margin: 2%;
+    border-radius: 3%;
 }
 
 #volei1 {
     float: left;
-    border:2px green ridge;
+    border: outset whitesmoke 3px;
     margin: 2%;
+    border-radius: 3%;
 }
 
 #hob12 {
@@ -47,7 +56,11 @@ body {
 .hobbies {
     width:40%;
     margin: auto;
-    border:5px green ridge;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    border-radius:5%;
+    background-color: #141212;
 }
 
 * {
@@ -62,13 +75,17 @@ body {
 p {
     text-align: justify;
     margin:2%;
+    font-family:Franklin Gothic;
 }
 
 #foto1-title {
     margin-bottom: 2%;
     margin-top:2%;
+    padding-top:1%;
+    font-family: Bernard MT Condensed;
 }
 
 h3 {
     margin:3%;
+    font-family:Trebuchet MS;
 }
