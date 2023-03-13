@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <link href="../assets/css/contato.css" rel="stylesheet">
-    <title>contato</title>
-   <p><img src="C:\Users\Aluno A\Desktop\desafio final\blog\assets\images\logo2.png"height="100px" width="100px"></p>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
 </head>
-
 <body>
-    <h1>Preencha com seus dados</h1>
-    <form id="forms1" action="https://loterias.caixa.gov.br/Paginas/Mega-Sena.aspx">
-        <div id="end2">
-            <label for="">Nome</label>
-            <input type="text" placeholder="Digite seu nome" required>
-        </div>
-        <div id="end3">
-            <label for="">E-mail</label>
-            <input type="email" placeholder="Digite seu E-mail" required>
-        </div>
-        <div id="end4">
-            <label for="">Telefone</label>
-            <input type="Telefone" placeholder="Digite seu telefone" required>
-        </div>
-        <div>
-            <button id="botao">
-                Clique aqui ganhe 3 milhoes reais
-            </button>
-        </div>
-    </form>
-</body>
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
 
+            <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+        </form>
+    </section>
+</body>
 </html>
