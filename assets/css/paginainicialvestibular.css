@@ -6,6 +6,7 @@ body {
 }
 header {
     display: flex;
+    padding: 0%;
 }
 a {
     text-decoration: whitesmoke;
@@ -28,16 +29,24 @@ article{
     width: 20%;
     margin-top: auto;
 }
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
 #imgheader {
     width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
 }
 #imgheader2{
     width: 50%;
     float: right;
+    margin-bottom: 0%;
 }
 #escritalogo {
     margin-left: -70%;
     border: none;
+    
 }
 #desenho {
    float: right;
@@ -45,6 +54,7 @@ article{
 }
 #bltmenu {
     border: none;
+    float: left;
 
 }
 .banner1 {
@@ -121,7 +131,7 @@ p {
 }
 h2 {
     margin-top: 5%;
-    color: #577de2;
+    color: moccasin;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
