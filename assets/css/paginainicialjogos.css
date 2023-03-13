@@ -153,3 +153,7 @@ img {/*deixando ajeitado para não ficar feio*/
     border-radius: 3%;
     border: whitesmoke outset;
 }
+
+#mapa-1 {
+    margin-left: 5%;
+}
