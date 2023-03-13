@@ -1,8 +1,37 @@
 body {
- background-color: #222020;
+    background-color: #222020;
 }
+
 #pa01 {
-    color:whitesmoke;
+    color: whitesmoke;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#art01 {
+    background-color: #141212;
+    margin: 5%;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 5%;
+}
+
+#pa02 {
+    color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+#img01 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+section {
+    align-items: center;
+    text-align: center;
+    margin: 1%;
 }
