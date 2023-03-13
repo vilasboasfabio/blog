@@ -176,3 +176,11 @@ img {
     border-radius: 3%;
     border: whitesmoke outset;
 }
+
+#footer1 {
+    margin-bottom:-5px;
+}
+
+#img1 {
+    margin-left:5%;
+}
