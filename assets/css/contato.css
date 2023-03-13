@@ -41,11 +41,6 @@ form input{
     outline: none;
     border: 0;
     margin-bottom: 20px;
-    font-size: 15px;
-    transition: all 0.5s;
-}
-form input:focus{
-    border-radius: 16px;
 }
 form textarea{
     padding: 10px;
@@ -53,11 +48,8 @@ form textarea{
     border: 0;
     font-size: 15px;
     margin-bottom: 30px;
-    transition: all 0.5s;
 }
-form textarea:focus{
-    border-radius: 16px;
-}
+
 form button{
     padding: 15px;
     cursor: pointer;
