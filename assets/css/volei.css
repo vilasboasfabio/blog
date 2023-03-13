@@ -1,4 +1,48 @@
 * {
     margin:0;
-    paddin:0;
+    padding:0;
+}
+
+#volei1 {
+    width: 25%;
+    margin: 4%;
+}
+
+#title-h2 {
+    text-align: center;
+}
+
+#par1 {
+    text-align: justify;
+    margin: 2%;
+}
+
+body {
+    background-color: #222020;
+    color:whitesmoke;
+}
+
+#hist {
+    text-align: center;
+    width:50%;
+    margin:auto;
+}
+
+#regras1 {
+    text-align: center;
+    width:50%;
+    margin:auto;
+}
+
+#p-regras {
+    text-align: justify;
+    margin:2%;
+}
+
+#regras-img {
+    margin: 4%;
+}
+
+#footer1 {
+    margin-bottom:-10px;
 }
