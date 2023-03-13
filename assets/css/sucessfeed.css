@@ -1,12 +1,12 @@
-body{/*estilizando a body*/
+body{
     text-align: center;
     background-color: #242424;
     color: white;
 }
-#botao{/*alterando cor do botão*/
+#botao{
     background-color: #8bb7fb;
 }
-#botao:hover{/*alterando cor do botão quando passa o cursor por cima*/
+#botao:hover{
     background-color: white;
     opacity: 0.30;
 }
