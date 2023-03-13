@@ -3,6 +3,8 @@
     width: 40%;
     color: whitesmoke;
     margin:auto;
+    border:5px green ridge;
+    margin-top: 2%;
 }
 
 #foto1-text {
@@ -22,6 +24,7 @@ body {
 #hob-title {
     color: whitesmoke;
     text-align: center;
+    margin:4%;
 }
 
 #skate1 {
@@ -44,6 +47,7 @@ body {
 .hobbies {
     width:40%;
     margin: auto;
+    border:5px green ridge;
 }
 
 * {
