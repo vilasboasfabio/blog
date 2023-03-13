@@ -58,6 +58,15 @@ label {
     margin-left:5% ;
 
 }
-.ul-submenu{
-    
+
+
+#ul-esport{
+
+bottom: -10%;
+position: absolute;
+transition: all 0.5s;
+
+}
+#esport:checked~#ulesport{
+    transform: translateY(10%);
 }
