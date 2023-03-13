@@ -33,5 +33,10 @@ nav{
     width: 250px;
     height: 100%;
    position: absolute;
+   left: -250px;
    transition: all 0.5s;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(250px);
+
 }
