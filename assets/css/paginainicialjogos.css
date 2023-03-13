@@ -82,6 +82,7 @@ main{
     margin: 5%;
     border: outset whitesmoke 3px;
     border-radius: 5%;
+    border: none;
 }
 #news:hover {
     background-color: #5c5757;
