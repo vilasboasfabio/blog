@@ -60,13 +60,28 @@ label {
 }
 
 
-#ul-esport{
-
-bottom: -10%;
-position: absolute;
-transition: all 0.5s;
-
+.sub-menu{
+    display: none;
+    margin-left: 10%;
+   
 }
-#esport:checked~#ulesport{
-    transform: translateY(10%);
+nav ul li:hover .sub-menu{
+    display: block;
+  
 }
+nav ul li:hover .sub-menu ul{
+    display: block;
+}
+nav ul li:hover .sub-menu ul li{
+    width: 225px;
+   transition: 10.0s;
+
+   
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+
