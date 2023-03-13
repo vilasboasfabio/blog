@@ -1,0 +1,70 @@
+#sobre1 {
+    text-align: center;
+    width: 40%;
+    color: whitesmoke;
+    margin:auto;
+}
+
+#foto1-text {
+    text-align: justify;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+#foto1 {
+    border: green 5px ridge;
+}
+
+body {
+    background-color: #222020;
+}
+
+#hob-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#skate1 {
+    float: left;
+    border:2px green ridge;
+    margin: 2%;
+}
+
+#volei1 {
+    float: left;
+    border:2px green ridge;
+    margin: 2%;
+}
+
+#hob12 {
+    color: whitesmoke;
+    display: flex;
+}
+
+.hobbies {
+    width:40%;
+    margin: auto;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+#footer-1 {
+    margin-bottom:-5px;
+}
+
+p {
+    text-align: justify;
+    margin:2%;
+}
+
+#foto1-title {
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+
+h3 {
+    margin:3%;
+}
