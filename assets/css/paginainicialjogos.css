@@ -1,54 +1,54 @@
-body {
+body {/*alterando a body*/
     background-color: rgb(34, 32, 32);
     color: whitesmoke;
     text-align: center;
 }
-header {
+header {/*alihando a header*/
     display: flex;
 }
-a {
+a {/*alterando cor da letra onde é link*/
     text-decoration: whitesmoke;
     color: whitesmoke;
 }
-article{
+article{/*sombras*/
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
-#header0 {
+#header0 {/*deixando ajeitado para não ficar feio*/
     width: 40%;
     height: 100%;
     align-items: center;
     margin-left: 21%;
     margin-top: auto;
 }
-#header01{
+#header01{/*deixando ajeitado para não ficar feio*/
     width: 20%;
     margin-top: auto;
 }
-#escritalogo {
+#escritalogo {/*deixando ajeitado para não ficar feio*/
     margin-right: 50%;
     border: none;
 }
-#desenho {
+#desenho {/*deixando ajeitado para não ficar feio*/
     border: none;
     margin-left: 270%;
 }
-#bltmenu {
+#bltmenu {/*deixando ajeitado para não ficar feio*/
     border: none;
 }
-.banner1 {
+.banner1 {/*deixando ajeitado para não ficar feio*/
     display: flex;
     margin: auto;
     
 }
-.banner1:hover{
+.banner1:hover{/*alterando cor e colocando transição no menu lateral*/
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all 1s;
     cursor: pointer;
 }
-#bannerprincipal {
+#bannerprincipal {/*colocando a noticia principal bonita*/
     display: flex;
     background-color: #141212;
     margin: 5%;
@@ -56,23 +56,23 @@ article{
     border-radius: 5%;
     
 }
-#imgm {
+#imgm {/*deixando ajeitado para não ficar feio*/
     margin-top: 5%;
 }
 
-#main1 {
+#main1 {/*deixando ajeitado para não ficar feio*/
     display: flex;
     margin: 0%;
 }
-main{
+main{/*deixando ajeitado para não ficar feio*/
     text-align: center;
     margin: 0%;
 }
-#title1 {
+#title1 {/*alterando a font-family dos titulos*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 38px;
 }
-#news {
+#news {/*colocando cada noticia no lugar que deve estar*/
     width: 33%;
     align-items: center;
     text-align: justify;
@@ -81,52 +81,52 @@ main{
     border: outset whitesmoke 3px;
     border-radius: 5%;
 }
-#news:hover {
+#news:hover {/*mudar a cor quando passar o cursor por cima*/
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;
 }
-#section01{
+#section01{/*deixando ajeitado para não ficar feio*/
     margin: 5%;
     padding: 10%;
 }
-p {
+p {/*deixando ajeitado para não ficar feio*/
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
   
 }
-#ppp {
+#ppp {/*deixando ajeitado para não ficar feio*/
     margin-left: 5%;
     margin-right: 5%;
 }
-#mainnews {
+#mainnews {/*deixando ajeitado para não ficar feio*/
     margin: auto;
     text-align: justify;
     margin-top: 2%;
     margin-bottom: 2%;
    
 }
-h2 {
+h2 {/*alterando cor da escrita*/
     margin-top: 5%;
     color: #577de2;
     margin-bottom: 3%;
 }
-h5 {
+h5 {/*alterando cor da escrita*/
     color: #304c89;
     margin-top: 3%;
 }
-#mainnews0 {
+#mainnews0 {/*deixando ajeitado para não ficar feio*/
     margin-left: 3%;
     margin-right: 3%;
 }
-#linha0 {
+#linha0 {/*deixando ajeitado para não ficar feio*/
     width: 100%;
     height: 8px;
 }
 
-.lastnews {
+.lastnews {/*deixando ajeitado para não ficar feio*/
     display: flex;
     margin: 5%;
     background-color: rgb(34, 32, 32) ;
@@ -135,21 +135,25 @@ h5 {
     border: outset whitesmoke 3px;
     border-radius: 5%;
 }
-.lastnews:hover{
+.lastnews:hover{/*altera a cor quando passa cursor por cima*/
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;
 }
-#main02 {
+#main02 {/*deixando ajeitado para não ficar feio*/
     background-color: #141212;
 
 
 }
-#imgnews2 {
+#imgnews2 {/*deixando ajeitado para não ficar feio*/
     margin: 2%;
 }
-img {
+img {/*deixando ajeitado para não ficar feio*/
     border-radius: 3%;
     border: whitesmoke outset;
+}
+
+#mapa-1 {
+    margin-left: 5%;
 }

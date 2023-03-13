@@ -5,7 +5,6 @@
     font-family: sans-serif;
 }
 body{
-    display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -95,4 +94,8 @@ form button:hover{
 }
 .btn:hover{
     border-radius: 16px;
+}
+
+#footer-1 {
+    margin-bottom:-5px;
 }
