@@ -43,7 +43,7 @@
 }
 
 body {
-    background-color: black;
+    background-color:#040404;
 }
 
 #noticia-2 {
@@ -99,4 +99,9 @@ h4 {
     margin: 2%;
     margin-top:-1%;
     text-align: justify;
+}
+
+body {
+    margin:0;
+    padding:0;
 }

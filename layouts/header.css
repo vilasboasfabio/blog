@@ -1,0 +1,45 @@
+header {
+    height: 100%;
+    width:100%;
+    background-color:black;
+    position:fixed;
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+
+#logos {
+    margin-top:1%;
+}
+
+#logo1 {
+    margin-left:40%;
+    padding:+1px;
+    border-radius: 1000px;
+}
+
+#logo2 {
+    float:right;
+    animation: loading 1s alternate;
+}
+
+#logo2:hover {
+    animation: loading 1s  linear infinite;
+}
+
+#logo1:hover {
+    border-radius: 1000px;
+    background-color: white;
+    transition: background-color 2s;
+}
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
