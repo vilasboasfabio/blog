@@ -21,7 +21,7 @@ header {
 }
 
 #logo2 {
-    margin-left:32%;
+    float:right;
     animation: loading 1s alternate;
 }
 
