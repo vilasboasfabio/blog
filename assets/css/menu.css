@@ -40,3 +40,8 @@ input[type="checkbox"]:checked ~ nav{
     transform: translateX(250px);
 
 }
+label{
+    position: absolute;
+    padding: 15px;
+    z-index: 1;
+}
