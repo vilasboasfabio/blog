@@ -1,131 +1,40 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../assets/css/feedback.css">
-    <link rel="stylesheet" href="../assets/css/menu.css">
+
     <title>Feedback</title>
-    <header>
-        <body id="bb">
-            <input type="checkbox" id="chec">
-            <label for="chec">
-                <img id="iconmenu" src="./../assets/images/icon menu.png" width="40px">
-            </label>
-        </body>
-        </label>
-        <nav>
-            <ul id="ulprinc">
-                <li><a href="#">Início</a></li>
-        
-                <li >
-                
-                    <a href="#">Esporte <img class="seta" src="./../assets/images/seta-baixo.png" /></a>
-                    <div class="sub-menu">
-                    <ul>
-                        <li><a href="#">Basquete</a></li>
-                        <li><a href="#">Volei</a></li>
-                        <li><a href="#">Futebol</a></li>
-                        <li><a href="#">Notícia</a></li>
-                    </ul>
-                    </div>
-                </li>
-        
-                <li>
-                    <a href="#">Moda<img class="seta" src="./../assets/images/seta-baixo.png"></a>
-                    <div class="sub-menu">
-                        <ul id="ul-moda">
-                            <li><a href="#">História da moda</a></li>
-                            <li><a href="#">Estilos</a></li>
-                            <li><a href="#">Savaoir-faire</a></li>
-                            <li><a href="#">Notícia</a></li>
-                        </ul>
-                 </div>
-                </li>
-        
-                <li>
-                    <a href="#">Literatura <img class="seta" src="./../assets/images/seta-baixo.png"></a> </a>
-                    <div class="sub-menu">
-                        <ul id="ul-submenu">
-                            <li><a href="#">Livros</a></li>
-                            <li><a href="#">Autores</a></li>
-                            <li><a href="#">Notícia</a></li>
-                        </ul>
-                    </div>
-                </li>
-        
-                <li>
-                    <a href="#">Jogos <img class="seta" src="./../assets/images/seta-baixo.png"></a></a>
-                    <div class="sub-menu">
-                        <ul id="ul-submenu">
-                            <li><a href="#">Valorant</a></li>
-                            <li><a href="#">CS:GO</a></li>
-                            <li><a href="#">Sons of yhe forest</a></li>
-                            <li><a href="#">Notícia</a></li>
-                        </ul>
-                    </div>
-                </li>
-        
-                <li>
-                    <a href="#">Música <img class="seta" src="./../assets/images/seta-baixo.png"></a></a>
-                    <div class="sub-menu">
-                        <ul id="ul-submenu">
-                            <li><a href="#">Funk</a></li>
-                            <li><a href="#">Trap</a></li>
-                            <li><a href="#">Pop</a></li>
-                            <li><a href="#">Notícia</a></li>
-                        </ul>
-                    </div>
-                </li>
-        
-                <li>
-                    <a href="#">Arte <img class="seta" src="./../assets/images/seta-baixo.png"></a></a>
-                    <div class="sub-menu">
-                        <ul id="ul-submenu">
-                            <li><a href="#">Exposição</a></li>
-                            <li><a href="#">Artistas do nosso cotidiano</a></li>
-                            <li><a href="#">Arte de rua</a></li>
-                            <li><a href="#">Notícia</a></li>
-                        </ul>
-                    </div>
-                </li>
-        
-                <li>
-                    <a href="#">Vestibular <img class="seta" src="./../assets/images/seta-baixo.png"></a></a>
-                    <div class="sub-menu">
-                        <ul id="ul-submenu">
-                            <li><a href="#">Roteiro de estudo</a></li>
-                            <li><a href="#">Redação</a></li>
-                            <li><a href="#">Universidades</a></li>
-                            <li><a href="#">Notícia</a></li>
-                        </ul>
-                    </div>
-                </li>
-        
-            </ul>
-        </nav>
-    </header>
+
 </head>
 <body>
-    <form>
-        
-        <h1>Deixe um comentário!</h1>
-        <div class="caixatext1">
-        <label id="label">Nome:</label>
-   <input placeholder="Digite seu nome" id="caixatext1" required>
-</div>
-<div class="caixatext1">
-        <label id="label">E-mail:</label>
-        <input placeholder="Digite seu e-mail" id="caixatext1" required>
-    </div>
-    <div class="caixatext1">
-        <label id="label">Comentário:</label>
-        <input placeholder="Digite sua mensagem" id="mensag" required>
-    </div>
-    <div>
-        <input type="submit" id="enviar">
-    </div>
-        </ul>
-    </form>
-    
+    <article>
+        <form action="">
+            <!-- título ´principal da página-->
+            <h1 id="h1">Deixe seu comentário</h1>
+            <!-- primeira caixa de texto, nome completa da pessoa-->
+            <div class="caixatext1">
+                <label id="label">Nome:</label>
+                <input type="text" placeholder="Digite seu nome" id="caixatext1" required>
+            </div>
+            <!-- segunda caixa de texto, informar o e-mail -->
+            <div class="caixatext1">
+                <label id="label">E-mail:</label>
+                <input type="email" placeholder="Digite seu e-mail" id="caixatext1" required>
+            </div>
+            <!-- terceira caixa de texto, comentário -->
+            <div class="caixatext1">
+                <label id="label">Comentário:</label>
+                <input type="text" placeholder="Digite sua mensagem" id="mensag" required>
+            </div>
+            <!-- botão de enviar -->
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </article>
+    <iframe src="../layouts/footer.html"  width="100%" frameborder="no" scrolling="no" ></iframe>
 </body>
+
 </html>
