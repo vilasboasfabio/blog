@@ -2,7 +2,7 @@ body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
-    
+   
 }
 header {
     display: flex;
@@ -45,6 +45,7 @@ article{
 }
 #escritalogo {
     margin-left: 10%;
+    margin-left: 30%;
     border: none;
     
 }
@@ -86,7 +87,7 @@ article{
 }
 main{
     text-align: center;
-    margin: 0%;
+   
 
 }
 #title1 {
@@ -129,7 +130,7 @@ p {
 }
 h2 {
     margin-top: 5%;
-    color: moccasin;
+    color: #577de2;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -143,7 +144,7 @@ h5 {
     margin-right: 3%;
 }
 #linha0 {
-    width: 100%;
+    width: 93%;
     height: 8px;
 }
 

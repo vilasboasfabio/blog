@@ -76,6 +76,7 @@ p {
     text-align: justify;
     margin:2%;
     font-family:Franklin Gothic;
+    font-size: 15px;
 } /*fonte das letras, justificação de texto e distanciamento*/
 
 #foto1-title {
@@ -88,4 +89,13 @@ p {
 h3 {
     margin:3%;
     font-family:Trebuchet MS;
+    font-size:22px;
 } /*aumento de distancia e mudança na fonte*/
+
+#sobre1:hover {
+    cursor:pointer;
+}
+
+.hobbies:hover {
+    cursor:pointer;
+}
