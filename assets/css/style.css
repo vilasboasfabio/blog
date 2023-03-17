@@ -48,6 +48,7 @@ body {
     background-color: black;
     padding:1%;
     border-radius: 5%;
+    margin:10%;
 }
 
 #sepimg {
@@ -65,4 +66,20 @@ body {
 h5 {
     text-align: center;
     color:azure;
+}
+
+#not123 {
+    display:flex;
+}
+
+.sec123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
 }
