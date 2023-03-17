@@ -94,6 +94,7 @@ function clickexit() {
     var aument2 = window.document.querySelector('section#hob2')
     var som1 = window.document.querySelector('h1#hob-title')
     var tit1 = window.document.querySelector('h1#foto1-title')
+    var text5 = window.document.querySelector('p#foto1-text')
     aument3.style.webkitBoxShadow = '10px 14px 23px 5px rgba(217,214,217,0.28)'
     aument3.style.mozBoxShadow = '10px 14px 23px 5px rgba(217,214,217,0.28)'
     aument3.style.boxShadow = '10px 14px 23px 5px rgba(217,214,217,0.28)'
