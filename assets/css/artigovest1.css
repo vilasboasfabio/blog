@@ -43,3 +43,9 @@ p {
 #pp {
     padding-top: 5%;
 }
+#header0 {
+    height: 50%;
+}
+#cap {
+    border: outset whitesmoke 0.5cm;
+}
