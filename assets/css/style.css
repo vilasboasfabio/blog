@@ -89,3 +89,42 @@ h5 {
     text-align: justify;
     margin:2%;
 }
+
+.comments123 {
+    width: 30%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    display:flex;
+}
+
+#comments {
+    display:flex;
+}
+
+#perfil {
+    border:3px white ridge;
+    border-radius:100px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin:1%;
+}
+
+#comentario {
+    margin:1%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: right;
+}
