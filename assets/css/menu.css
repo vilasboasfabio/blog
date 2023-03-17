@@ -63,6 +63,7 @@ label {
 .sub-menu{
     display: none;
     margin-left: 10%;
+    background-color: black;
    
 }
 nav ul li:hover .sub-menu{
@@ -83,6 +84,7 @@ ul{
 }
 li{
     list-style: none;
+    background-color: black;
 }
 img {
     border: none;
