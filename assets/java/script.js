@@ -1,25 +1,13 @@
-'use strict'
+function passar() {
+    var destaque1 = window.document.querySelector('section#principal1')
+    destaque1.style.backgroundColor = '#5c5757'
+    destaque1.style.outline = 'double whitesmoke'
+    destaque1.style.transition = '1s'
+}
 
-const menuSize = '250px';
-
-let open = true;
-
-document.querySelector('#bltmenu').addEventListener('click', e => {
-    open = !open
-    toggleMenu();
-})
-
-document.querySelector('#btnclose').addEventListener('click', e => {
-   open = false;
-   toggleMenu();
-
-})
-
-function toggleMenu() {
-    if (open) {
-        document.querySelector('#menu').style.marginLeft = 0;
-        return; 
-    }
-     document.querySelector('#menu').style.marginLeft = `-${menuSize}`;
-
+function sair() {
+    var destaque1 = window.document.querySelector('section#principal1')
+    destaque1.style.backgroundColor = 'black'
+    destaque1.style.outline = 'none'
+    destaque1.style.transition = '1s'
 }

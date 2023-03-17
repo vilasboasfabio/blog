@@ -82,4 +82,10 @@ h5 {
     padding:1%;
     border-radius: 5%;
     margin:2%;
+    text-align: center;
+}
+
+#just-p {
+    text-align: justify;
+    margin:2%;
 }
