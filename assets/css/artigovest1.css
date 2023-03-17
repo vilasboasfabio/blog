@@ -1,0 +1,45 @@
+body {
+    align-items: center;
+    background-color: #222020;
+}
+article{
+    width: 100%;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+img {
+ border: none;
+}
+#cont {
+    color: whitesmoke;
+    border: double #257683 20px ;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    margin: 3%;
+    margin-top: 5%;
+
+
+    
+}
+#cont0 {
+    background-color: black;
+    width: 100%;
+    border-radius: 5% 5%;
+   
+}
+#ar02 {
+   background-color: black;
+   
+}
+p {
+   
+    padding-bottom: 5%;
+}
+#pp {
+    padding-top: 5%;
+}
