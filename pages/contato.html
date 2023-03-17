@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <link href="../assets/css/contato.css" rel="stylesheet">
-    <title>contato</title>
-</head>
+    <link rel="stylesheet" href="../assets/css/feedback.css">
 
+    <title>Feedback</title>
+
+</head>
 <body>
-    <section>
-        <h2>Contato</h2>
-        <form action="../pages/sucessctt.html" method="post">
-            <label>Nome</label>
-                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
-                <label>Email</label>
-                <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
-                <label>Mensagem</label>
-                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+    <article>
+        <form action="../pages/sucessctt.html">
+            <!-- título ´principal da página-->
+            <h1 id="h1">contato</h1>
+            <!-- primeira caixa de texto, nome completa da pessoa-->
+            <div class="caixatext1">
+                <label id="label">Nome:</label>
+                <input type="text" placeholder="Digite seu nome" id="caixatext1" required>
+            </div>
+            <!-- segunda caixa de texto, informar o e-mail -->
+            <div class="caixatext1">
+                <label id="label">E-mail:</label>
+                <input type="email" placeholder="Digite seu e-mail" id="caixatext1" required>
+            </div>
+            <!-- terceira caixa de texto, comentário -->
+            <div class="caixatext1">
+                <label id="label">Comentário:</label>
+                <input type="text" placeholder="Digite sua mensagem" id="mensag" required>
+            </div>
+            <!-- botão de enviar -->
+            <div>
                 <button type="submit">Enviar</button>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../assets/css/contato.css" rel="stylesheet">
-    <title>Formulário</title>
-</head>
-
-<body>
-    <section>
-        <h2>Contato</h2>
-        <form action="../pages/sucessfb.html" method="post">
-            <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
-            <label>Email</label>
-            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
-            <label>Mensagem</label>
-            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </p>
-            </form>
-    </section>
-    <iframe src="../layouts/footer.html" scrolling="no" width="100%" frameborder="no" id="footer-1"></iframe>
+            </div>
+        </form>
+    </article>
+    <iframe src="../layouts/footer.html"  width="100%" frameborder="no" scrolling="no" ></iframe>
 </body>
 
 </html>
