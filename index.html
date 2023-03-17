@@ -5,132 +5,207 @@
     <meta charset="UTF-8">
     <title>PsiOmega</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!--linkar o css da pagina a ela-->
-    <link rel="icon" type="image/x-icon" href="assets/images/logo2.png"> <!--deixar o icone da pagina como a logo da nossa equipe-->
+    <link rel="icon" type="image/x-icon" href="assets/images/logo2.png">
+    <!--deixar o icone da pagina como a logo da nossa equipe-->
+    <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
 </head>
 
 <body>
-    <iframe src="layouts/header.html" scrolling="no" width="100%" frameborder="no" id="header-1"></iframe> <!--puxar o header para a pagina-->
+    <header>
+
+        <body id="bb">
+            <div id="logos">
+                <input type="checkbox" id="chec">
+                <label for="chec">
+                    <img id="iconmenu" src="./assets/images/icon menu.png" width="40px">
+                </label>
+        </body>
+        </label>
+        <nav>
+            <ul id="ulprinc">
+                <li><a href="index.html">Início</a></li>
+
+                <li>
+
+                    <a href="pages/esportes/esporte">Esporte <img class="seta" src="./assets/images/seta-baixo.png" /></a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="pages/esportes/basquete.html">Basquete</a></li>
+                            <li><a href="pages/esportes/volei.html">Volei</a></li>
+                            <li><a href="pages/esportes/futebol.html">Futebol</a></li>
+                            <li><a href="pages/esportes/noticia">Notícia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                </li>
+
+                <li>
+                    <a href="pages/literatura/paginainicialliteratura.html">Literatura <img class="seta" src="./assets/images/seta-baixo.png"></a> </a>
+                    <div class="sub-menu">
+                        <ul id="ul-submenu">
+                            <li><a href="pages/literatura/livros.html">Livros</a></li>
+                            <li><a href="pages/literatura/autores.html">Autores</a></li>
+                            <li><a href="pages/esportes/noticia">Notícia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="pages/jogos/paginainicialjogos.html">Jogos <img class="seta" src="./assets/images/seta-baixo.png"></a></a>
+                    <div class="sub-menu">
+                        <ul id="ul-submenu">
+                            <li><a href="pages/jogos/valorant.html">Valorant</a></li>
+                            <li><a href="pages/jogos/csgo.html">CS:GO</a></li>
+                            <li><a href="pages/jogos/sonsoftheflorest.html">Sons of the forest</a></li>
+                            <li><a href="pages/esportes/noticia.html">Notícia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="pages/musica/paginainicialmusic.html">Música <img class="seta" src="./assets/images/seta-baixo.png"></a></a>
+                    <div class="sub-menu">
+                        <ul id="ul-submenu">
+                            <li><a href="pages/musica/funk.html">Funk</a></li>
+                            <li><a href="pages/musica/pop.html">Trap</a></li>
+                            <li><a href="pages/musica/pop.html">pop</a></li>
+                            <li><a href="pages/musica/noticias.html">Notícia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="pages/arte/arte.html">Arte <img class="seta" src="./assets/images/seta-baixo.png"></a></a>
+                    <div class="sub-menu">
+                        <ul id="ul-submenu">
+                            <li><a href="pages/arte/assuntos/exposicao.html">Exposição</a></li>
+                            <li><a href="pages/arte/assuntos/artistas.html">Artistas do nosso cotidiano</a></li>
+                            <li><a href="pages/arte/assuntos/arterua.html">Arte de rua</a></li>
+                            <li><a href="pages/arte/assuntos/noticia.html">Notícia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="pages/paginainicialvest.html">Vestibular <img class="seta" src="./assets/images/seta-baixo.png"></a></a>
+                    <div class="sub-menu">
+                        <ul id="ul-submenu">
+                            <li><a href="pages/vestibular/roteiro.html">Roteiro de estudo</a></li>
+                            <li><a href="pages/vestibular/redacao.html">Redação</a></li>
+                            <li><a href="pages/vestibular/universidades.html">Universidades</a></li>
+                            <li><a href="pages/vestibular/noticia.html">Notícia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </nav>
+        <img src="assets/images/escrita.jpg" width="15%" height="15%" id="logoc">
+        <img src="assets/images/desenho.jpg" width="5%" height="5%" id="iconr">
+        </div>
+    </header>
     <main>
         <article>
-            <div>
-                <section id="sec-1"> <!--section para encaixar o titulo e a imagem da manchete-->
-                    <img src="assets/images/logo1.png" width="50%" id="noticia-1">
-                    <h2 id="p-1">Titulo da noticia principal</h2>
-                    <div> <!--div para ajeitar a data de publicação com o texto da manchete-->
-                        <p id="p-1">texto sobre principal noticia e direcionamento a uma pagina mais detalhada dela</p>
-                        <h6>10/03/2023</h6>
+            <h1 id="title-P">Novidades!</h1>
+            <a href="pages/paginainicialvest.html">
+                <section id="principal1" onmouseenter="passar()" onmouseleave="sair()">
+                    <div id="sepimg">
+                        <img src="assets/images/Enem2023.png" height="30%" width="30%" id="enemimg">
+                        <div id="juntext">
+                            <h2 id="title-E">Enem 2023 saiba de tudo!</h2>
+                            <p id="text-E">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam debitis
+                                eaque, harum
+                                numquam nesciunt explicabo placeat dicta tempora voluptates. Vero expedita repudiandae
+                                mollitia
+                                corrupti, quia ex aliquam laborum rem impedit?</p>
+                            <h5>publicado em: 17/03/2023</h5>
+                        </div>
                     </div>
                 </section>
-            </div>
-            <div class="org-noticia"> <!--deixar as noticias uma ao lado da outra-->
-                <a href="#" class="noticia-123456"> 
-                    <section>
-                        <h3>Esportes</h3>
-                        <img src="assets/images/logo2.png" width="30%" id="noticia-2">
-                    </section>
-                </a>
-                <a href="#" class="noticia-123456">
-                    <section>
-                        <h3>Arte</h3>
-                        <img src="assets/images/logo2.png" width="30%" id="noticia-2">
-                    </section>
-                </a>
-                <a href="#" class="noticia-123456">
-                    <section>
-                        <h3>Jogos</h3>
-                        <img src="assets/images/logo2.png" width="30%" id="noticia-2">
-                    </section>
-                </a>
-            </div>
-            <div class="org-noticia"> <!--deixar as noticias uma ao lado da outra-->
-                <a href="#" class="noticia-123456">
-                    <section>
-                        <h3>Moda</h3>
-                        <img src="assets/images/logo2.png" width="30%" id="noticia-2">
-                    </section>
-                </a>
-                <a href="#" class="noticia-123456">
-                    <section>
-                        <h3>Literatura</h3>
-                        <img src="assets/images/logo2.png" width="30%" id="noticia-2">
-                    </section>
-                </a>
-                <a href="#" class="noticia-123456">
-                    <section>
-                        <h3>Cinema e Musica</h3>
-                        <img src="assets/images/logo2.png" width="30%" id="noticia-2">
-                    </section>
-                </a>
+            </a>
+            <div id="not123">
+                <section class="sec123" id="sec1" onmouseenter="passar1()" onmouseleave="sair1()">
+                    <h2>sla</h2>
+                    <img src="assets/images/logo2.png" width="200px">
+                    <p id="just-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa facere nemo a iusto.
+                        Tempore labore dignissimos voluptas sed neque, fugit incidunt ratione eaque animi, corrupti
+                        nobis omnis saepe debitis officiis?</p>
+                </section>
+                <section class="sec123" id="sec2" onmouseenter="passar2()" onmouseleave="sair2()">
+                    <h2>sla</h2>
+                    <img src="assets/images/logo2.png" width="200px">
+                    <p id="just-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugiat saepe nesciunt
+                        distinctio placeat reiciendis alias inventore quisquam sequi tempore enim minima quibusdam ut,
+                        iusto maiores dignissimos expedita maxime aut.</p>
+                </section>
+                <section class="sec123" id="sec3" onmouseenter="passar3()" onmouseleave="sair3()">
+                    <h2>sla</h2>
+                    <img src="assets/images/logo2.png" width="200px">
+                    <p id="just-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque aperiam voluptate
+                        esse totam neque exercitationem, laboriosam odio voluptatibus nostrum aut cum, quasi autem
+                        laborum. Ullam repudiandae dolor eaque ex?</p>
+                </section>
             </div>
         </article>
-        <article id="comentarios-m"> <!--deixar os comentarios um ao lado do outro-->
-            <div class="comentarios"> <!--deixar os comentarios um ao lado do outro-->
-                <section id="textos123456"> <!--Estilizar a caixa-->
-                    <div  class="foto-e-nome"> <!--nome do lado da foto-->
-                        <img src="assets/images/logo2.png" width="64px" height="64px" id="foto-p">
-                    <h4>Professor Thiago</h4>
+        <hr>
+        <article id="comments">
+            <section class="comments123">
+                <img src="assets/images/logo2.png" id="perfil" width="64px" height="64px">
+                <div>
+                    <h3 id="nome">
+                        Rafael
+                    </h3>
+                    <p id="comentario">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto fuga quibusdam voluptas doloremque consequuntur ipsam nobis maxime nemo commodi et repudiandae, similique fugit deleniti amet tempore laborum atque cupiditate voluptate.
+                    </p>
+                    <div id="borderestrela">
+                    <img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela">
                     </div>
-                    <div class="msg-data"> <!--data do lado da mensagem-->
-                        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui reprehenderit pariatur velit molestias at. Veritatis, porro ex ad dicta voluptatem illo, natus eum, blanditiis quia inventore nulla beatae itaque.</p>
-                        <h6>10/03/2023</h6>
+                </div>
+                <h6>
+                    13/03/2023
+                </h6>
+            </section>
+            <section class="comments123">
+                <img src="assets/images/logo2.png" id="perfil" width="64px" height="64px">
+                <div>
+                    <h3 id="nome">
+                        Custodio
+                    </h3>
+                    <p id="comentario">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sunt itaque, placeat minus accusamus possimus et, dolorum sit hic corrupti soluta ratione facilis ea provident illum, quisquam ullam. Fugit, officiis.
+                    </p>
+                    <div id="borderestrela">
+                        <img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela">
                     </div>
-                </section>
-                <section id="textos123456"> <!--Estilizar a caixa-->
-                    <div class="foto-e-nome"> <!--nome do lado da foto-->
-                        <img src="assets/images/logo2.png" width="64px" height="64px" id="foto-p">
-                    <h4>Professor Felipe</h4>
                 </div>
-                <div class="msg-data"> <!--data do lado da mensagem-->
-                    <p class="msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ratione a nulla similique doloremque modi expedita minus minima possimus voluptatem harum, voluptatibus inventore fugiat cupiditate aliquam, maxime fugit consequuntur sed.</p>
-                    <h6>10/03/2023</h6>
+                <h6>
+                    13/03/2023
+                </h6>
+            </section>
+            <section class="comments123">
+                <img src="assets/images/logo2.png" id="perfil" width="64px" height="64px">
+                <div>
+                    <h3 id="nome">
+                        Cumpri
+                    </h3>
+                    <p id="comentario">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum suscipit architecto sunt deserunt culpa natus in ad necessitatibus doloribus, sint ut molestiae nesciunt numquam optio adipisci possimus harum similique nihil.
+                    </p>
+                    <div id="borderestrela">
+                        <img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela"><img src="assets/images/estrela.png" width="30px" id="estrela">
+                    </div>
                 </div>
-                </section>
-                <section id="textos123456"> <!--Estilizar a caixa-->
-                    <div class="foto-e-nome"> <!--nome do lado da foto-->
-                        <img src="assets/images/logo2.png" width="64px" height="64px" id="foto-p">
-                    <h4>Professora Tamires</h4>
-                </div>
-                <div class="msg-data"> <!--data do lado da mensagem-->
-                    <p class="msg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum accusamus tenetur sequi consectetur reprehenderit quos, exercitationem cum rem. Repellat laudantium accusantium aspernatur odit iure neque nulla, quibusdam blanditiis reprehenderit voluptatum.</p>
-                    <h6>10/03/2023</h6>
-                </div>
-                </section>
-            </div>
-            <div div class="comentarios"> <!--deixar os comentarios um ao lado do outro-->
-                <section id="textos123456"> <!--Estilizar a caixa-->
-                    <div class="foto-e-nome"> <!--nome do lado da foto-->
-                        <img src="assets/images/logo2.png" width="64px" height="64px" id="foto-p">
-                    <h4>Professora Alessandra</h4>
-                </div>
-                <div class="msg-data"> <!--data do lado da mensagem-->
-                    <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi provident mollitia hic iste totam sint maxime necessitatibus atque rem, cumque quidem expedita laudantium voluptatem laboriosam eveniet porro! Commodi, dolores obcaecati.</p>
-                    <h6>10/03/2023</h6>
-                </div>
-                </section>
-                <section id="textos123456"> <!--Estilizar a caixa-->
-                    <div class="foto-e-nome"> <!--nome do lado da foto-->
-                        <img src="assets/images/logo2.png" width="64px" height="64px" id="foto-p">
-                    <h4>Professor Vilarinho</h4>
-                </div>
-                <div class="msg-data"> <!--data do lado da mensagem-->
-                    <p class="msg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptatem nobis optio architecto laboriosam ipsum consequuntur, excepturi nam, vitae perferendis facilis. Illum quia unde dolor itaque eveniet natus ullam ratione!</p>
-                    <h6>10/03/2023</h6>
-                </div>
-                </section>
-                <section id="textos123456"> <!--Estilizar a caixa-->
-                    <div class="foto-e-nome"> <!--nome do lado da foto-->
-                        <img src="assets/images/logo2.png" width="64px" height="64px" id="foto-p">
-                    <h4>Professor Menna</h4>
-                </div>
-                <div class="msg-data"> <!--data do lado da mensagem-->
-                    <p class="msg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia placeat sed, consequatur et magni odio, quidem modi ratione praesentium neque amet. Magni eaque qui deserunt? Quidem voluptatem eveniet reiciendis deserunt?</p>
-                    <h6>10/03/2023</h6>
-                </div>
-                </section>
-            </div>
+                <h6>
+                    13/03/2023
+                </h6>
+            </section>
         </article>
     </main>
     <iframe src="layouts/footer.html" scrolling="no" width="100%" frameborder="no" id="footer-1"></iframe>
+    <script src="assets/java/script.js"></script>
 </body>
 
 </html>

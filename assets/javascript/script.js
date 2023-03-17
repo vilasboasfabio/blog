@@ -1,25 +1,55 @@
-'use strict'
+function passar() {
+    var destaque1 = window.document.querySelector('section#principal1')
+    destaque1.style.backgroundColor = '#5c5757'
+    destaque1.style.outline = 'double whitesmoke'
+    destaque1.style.transition = '1s'
+}
 
-const menuSize = '250px';
+function sair() {
+    var destaque1 = window.document.querySelector('section#principal1')
+    destaque1.style.backgroundColor = 'black'
+    destaque1.style.outline = 'none'
+    destaque1.style.transition = '1s'
+}
 
-let open = true;
+function passar1() {
+    var destaque2 = window.document.querySelector('section#sec1')
+    destaque2.style.backgroundColor = '#5c5757'
+    destaque2.style.outline = 'double whitesmoke'
+    destaque2.style.transition = '1s'
+}
 
-document.querySelector('#bltmenu').addEventListener('click', e => {
-    open = !open
-    toggleMenu();
-})
+function sair1() {
+    var destaque2 = window.document.querySelector('section#sec1')
+    destaque2.style.backgroundColor = 'black'
+    destaque2.style.outline = 'none'
+    destaque2.style.transition = '1s'
+}
 
-document.querySelector('#btnclose').addEventListener('click', e => {
-   open = false;
-   toggleMenu();
+function passar2() {
+    var destaque3 = window.document.querySelector('section#sec2')
+    destaque3.style.backgroundColor = '#5c5757'
+    destaque3.style.outline = 'double whitesmoke'
+    destaque3.style.transition = '1s'
+}
 
-})
+function sair2() {
+    var destaque3 = window.document.querySelector('section#sec2')
+    destaque3.style.backgroundColor = 'black'
+    destaque3.style.outline = 'none'
+    destaque3.style.transition = '1s'
+}
 
-function toggleMenu() {
-    if (open) {
-        document.querySelector('#menu').style.marginLeft = 0;
-        return; 
-    }
-     document.querySelector('#menu').style.marginLeft = `-${menuSize}`;
+function passar3() {
+    var destaque4 = window.document.querySelector('section#sec3')
+    destaque4.style.backgroundColor = '#5c5757'
+    destaque4.style.outline = 'double whitesmoke'
+    destaque4.style.transition = '1s'
+}
 
+function sair3() {
+    var destaque4 = window.document.querySelector('section#sec3')
+    destaque4.style.backgroundColor = 'black'
+    destaque4.style.outline = 'none'
+    destaque4.style.transition = '1s'
 }
