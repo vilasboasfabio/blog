@@ -62,6 +62,7 @@ body {
     text-align: center;
 }
 
+
 #art01 {
     background-color: #141212;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
@@ -83,7 +84,9 @@ body {
     margin: 2%;
     align-items: center;
     border: outset whitesmoke;
+
     margin-left: 42%;
+
 }
 
 section {
