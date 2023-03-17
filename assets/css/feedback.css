@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+form div{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+}
+input{
+    margin: 1%;
+}
+#caixatext1 {
+        width: 97%;
+        height: 25%;
+}
+#enviar {
+    width: 40%;
+    margin-left: 31%;
+    
+    border: none;

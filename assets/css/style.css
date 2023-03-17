@@ -1,6 +1,6 @@
 .org-noticia {
     display: flex;
-}
+} /*organizar as noticias de maneira alinhada lateralmente*/
 
 #sec-1 {
     box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
@@ -10,18 +10,18 @@
     background-color:#141414;
     color:white;
     margin:4%;
-}
+} /*adição de uma shadow atrás da caixa principal, adição de borda e alteração da cor das letras e do fundo*/
 
 #p-1 {
     text-align:justify;
     margin-left:1%;
-}
+} /*deixar o texto alinhado e com espaçamento das bordas*/
 
 #noticia-1 {
     margin:1%;
     border:3px whitesmoke solid;
     text-align:left;
-}
+}/*borda da imagem e distanciamento dos cantos da caixa*/
 
 .noticia-123456 {
     background-color: #141414;
@@ -35,25 +35,25 @@
     box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
     -webkit-box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
     -moz-box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
-}
+} /*adição de uma shadow box nas noticias, alteração da cor da letra, limitação de tamanho, altura, deixar alinhado ao centro, cor de fundo e borda azul*/
 
 .noticia-123456:hover {
     width:33%;
     height:220px;
-}
+} /*aumentar levemente ao passar o mouse em cima*/
 
 body {
     background-color:#040404;
-}
+} /*cor do corpo todo*/
 
 #noticia-2 {
     border-radius:10px;
     border:5px #121d38 ridge;
-}
+} /*arredondamento e adição de borda*/
 
 .comentarios {
     display: flex;
-}
+} /*deixar os comentarios alinhados lateralmente*/
 
 #textos123456 {
     background-color: #343434;
@@ -63,11 +63,11 @@ body {
     border-left:5px #121d38 ridge;
     border-radius: 10px;
     display:inline;
-}
+} /*deixalos um na frente do outro, deixar redondo colocar uma borda na esquerda definir tamanho, cor de fundo e distanciamento*/
 
 #data-1 {
     display: flex;
-}
+} /*deixar os elementos alinhados lateralmente*/
 
 h6 {
     text-align: right;
@@ -75,33 +75,33 @@ h6 {
     margin-right:1%;
     margin-bottom:1%;
     padding:0;
-}
+} /*deixar o texto na direita, sem margin padding e distanciamento do topo e do chão*/
 
 h4 {
     margin-left: 2%;
-}
+} /*aumenta distanciamento da esquerda*/
 
 .foto-e-nome {
     display:flex;
-}
+} /*alinhas os elementos lateralmente*/
 
 #foto-p {
     border:3px #8bb7fb solid;
     border-radius:1000px;
     margin:1%;
-}
+} /*colocar uma foto para o comentario, e deixala redonda e distante dos demais elementos*/
 
 .msg-data {
     display:flex;
-}
+} /*alinhas os elementos lateralmente*/
 
 .msg {
     margin: 2%;
     margin-top:-1%;
     text-align: justify;
-}
+} /*justificar o texto de maneira a alinhalo e distancia-lo das bordas*/
 
 body {
     margin:0;
     padding:0;
-}
+} /*definir o tamanho extra e a margem do body para 0 ou seja nulo*/

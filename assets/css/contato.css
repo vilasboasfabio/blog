@@ -5,8 +5,10 @@
     font-family: sans-serif;
 }
 body{
+
     display: flex;
     margin:  0 auto;
+
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -91,3 +93,12 @@ form button:hover{
     font-size: 18px;
     transition: all 0.5s;
 }
+
+.btn:hover{
+    border-radius: 16px;
+}
+
+#footer-1 {
+    margin-bottom:-5px;
+}
+

@@ -1,10 +1,13 @@
 body {
-    background-color: rgb(34, 32, 32);
+    background-color: #222020;
     color: whitesmoke;
     text-align: center;
+    
 }
 header {
     display: flex;
+    padding: 0%;
+    background-color: black;
 }
 a {
     text-decoration: whitesmoke;
@@ -16,25 +19,44 @@ article{
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
 #header0 {
-    width: 40%;
+    width: 50%;
     height: 100%;
     align-items: center;
     margin-left: 40%;
     margin-top: auto;
+    display: flex;
 }
 #header01{
     width: 20%;
     margin-top: auto;
 }
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader2{
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
 #escritalogo {
-    margin-right: 50%;
+    margin-left: -70%;
     border: none;
+    
 }
 #desenho {
-    border: none;
+   float: right;
+   border: none;
 }
 #bltmenu {
     border: none;
+    float: left;
+
 }
 .banner1 {
     display: flex;
@@ -51,33 +73,33 @@ article{
     display: flex;
     background-color: #141212;
     margin: 5%;
-    border: outset whitesmoke 3px;
+    
     border-radius: 5%;
     
 }
 #imgm {
-    margin-top: 5%;
+    margin-right: 15%;
 }
 
 #main1 {
     display: flex;
-    margin: 0%;
+    margin:auto;
 }
 main{
     text-align: center;
     margin: 0%;
+
 }
 #title1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Bernard MT Condensed;
     font-size: 38px;
 }
-#news {
-    width: 33%;
+#news{
+    width: 100%;
     align-items: center;
     text-align: justify;
     background-color: #141212;
     margin: 5%;
-    border: outset whitesmoke 3px;
     border-radius: 5%;
 }
 #news:hover {
@@ -88,13 +110,12 @@ main{
 }
 #section01{
     margin: 5%;
-    padding: 10%;
+    padding: none;
 }
 p {
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
-  
 }
 #ppp {
     margin-left: 5%;
@@ -105,12 +126,12 @@ p {
     text-align: justify;
     margin-top: 2%;
     margin-bottom: 2%;
-   
 }
 h2 {
     margin-top: 5%;
     color: #577de2;
     margin-bottom: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h5 {
     color: #304c89;
@@ -131,7 +152,6 @@ h5 {
     background-color: rgb(34, 32, 32) ;
     align-items: center;
     text-align: center;
-    border: outset whitesmoke 3px;
     border-radius: 5%;
 }
 .lastnews:hover{
@@ -142,8 +162,7 @@ h5 {
 }
 #main02 {
     background-color: #141212;
-
-
+    margin: auto;
 }
 #imgnews2 {
     margin: 2%;
@@ -151,4 +170,7 @@ h5 {
 img {
     border-radius: 3%;
     border: whitesmoke outset;
+}
+#iconmenu{
+border: none;
 }

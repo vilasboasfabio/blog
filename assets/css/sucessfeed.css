@@ -1,12 +1,23 @@
-body{
+body {
+    background-color: #222020;
+    color: whitesmoke;
     text-align: center;
     background-color: #242424;
     color: white;
+    margin:0;
+    padding:0;
 }
-#botao{
-    background-color: #8bb7fb;
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
 }
-#botao:hover{
-    background-color: white;
-    opacity: 0.30;
+#imgheader2{
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+
+#footer1 {
+    margin-bottom:-5px;
 }
