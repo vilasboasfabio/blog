@@ -7,6 +7,7 @@ body {
 header {
     display: flex;
     padding: 0%;
+    background-color: black;
 }
 a {
     text-decoration: whitesmoke;
@@ -177,4 +178,7 @@ img {
 }
 #imgm{
     height: 10%;
+}
+#iconmenu{
+    border: none;
 }
