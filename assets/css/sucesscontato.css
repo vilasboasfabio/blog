@@ -9,4 +9,56 @@ body{/*estilizando a body*/
 #botao:hover{/*alterando cor do botão quando passa o cursor por cima*/
     background-color: white;
     opacity: 0.30;
+}header {
+    display: flex;
+    padding: 0%;
+}
+a {
+    text-decoration: whitesmoke;
+    color: whitesmoke;
+}
+article{
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+}
+#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+}
+#header01{
+    width: 20%;
+    margin-top: auto;
+}
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader2{
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+#escritalogo {
+    margin-left: -70%;
+    border: none;
+    
+}
+#desenho {
+   float: right;
+   border: none;
+}
+#bltmenu {
+    border: none;
+    float: left;
+
 }
