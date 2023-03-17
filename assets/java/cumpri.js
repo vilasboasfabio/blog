@@ -12,8 +12,8 @@ function entrar() {
     aument2.style.display = 'none'
     aument1.style.width = '80%'
     aument1.style.border = '5px solid white'
-    text2.style.fontSize = '30pt'
-    title1.style.fontSize = '44pt'
+    text2.style.fontSize = '22px'
+    title1.style.fontSize = '44px'
 }
 
 function sair() {
@@ -65,7 +65,7 @@ function entrar1() {
     aument1.style.display = 'none'
     aument2.style.width = '80%'
     aument2.style.border = '5px solid white'
-    text4.style.fontSize = '30px'
+    text4.style.fontSize = '22px'
     title2.style.fontSize = '44px'
 }
 
