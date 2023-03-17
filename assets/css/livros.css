@@ -542,10 +542,4 @@ section {
     color: rgb(216, 120, 179);
     margin-left: 1%;
     margin-bottom: 2%;
-    position: fixed;
-}
-#publicado10 {
-    position: fixed;
-    text-align: end;
-    margin-left: 1%;
 }
