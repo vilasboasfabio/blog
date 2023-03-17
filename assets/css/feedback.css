@@ -1,1 +1,75 @@
+form div {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+    font-family: sans-serif;
+}
 
+input {
+    margin: 4%;
+}
+
+#caixatext1 {
+    width: 90%;
+    height: 10%;
+    padding: 5%;
+    border: 0;
+}
+
+form button {
+    width: 100%;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    margin-left: 4%;
+    padding: 15px;
+
+
+}
+
+form button:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+#h1 {
+    font-size: 300%;
+    text-align: center;
+    margin: 5%;
+    text-shadow: 30% 30% rgba(33, 33, 33, 0.36);
+    color: moccasin;
+}
+
+body {
+    background-color: #101026;
+    color: whitke;
+    height: 100%;
+}
+
+#label {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+
+#mensag {
+    width: 70%;
+    height: 10%;
+    padding-bottom: 30%;
+    padding-right: 30%;
+    border: 0;
+}
+
+article {
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    background-color: #1d1d2e;
+}
+
+* {
+    padding: 0%;
+    margin: 0;
+}
