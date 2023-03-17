@@ -5,14 +5,14 @@ footer {
     color:white;
     position:fixed;
     width:100%;
-}
+}/*deixa o footer preso ao fundo da pagina o deixando fixado lá para ser chamado em outros sites*/
 
 * {
     margin:0;
     padding:0;
-}
+} /*remover o espaço extra e margin de todos os conteudos*/
 
 h1 {
     margin:0.5%;
     font-size:15px;
-}
+} /*ajeita o tamanho da fonte e a distancia dela da PsiArvore*/
