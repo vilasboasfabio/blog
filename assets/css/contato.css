@@ -1,18 +1,18 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 body{
     margin:  0 auto;
     align-items: center;
+    background: #101026;
     justify-content: center;
     min-height: 100vh;
     background: #140f07;
+
 }
 section{
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -66,7 +66,6 @@ form button:hover{
 /*Página do Obrigado*/
 
 .main{
-   display: flex;
    align-items: center;
    justify-content: center;
    min-height: 100vh;
