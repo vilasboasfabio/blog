@@ -2,7 +2,7 @@ body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
-    
+   
 }
 header {
     display: flex;
@@ -86,7 +86,7 @@ article{
 }
 main{
     text-align: center;
-    margin: 0%;
+   
 
 }
 #title1 {
@@ -143,7 +143,7 @@ h5 {
     margin-right: 3%;
 }
 #linha0 {
-    width: 100%;
+    width: 93%;
     height: 8px;
 }
 
