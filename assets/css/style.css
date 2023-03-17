@@ -23,17 +23,18 @@ body {
 
 #enemimg {
     float:left;
+    border-radius: 5%;
 }
 
 #title-E {
-    margin:1%;
+    margin:3%;
     color:azure;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #text-E {
-    margin:1%;
+    margin:3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: justify;
 }
@@ -50,7 +51,7 @@ body {
 }
 
 #sepimg {
-
+    display: flex;
 }
 
 #title-P {
@@ -63,4 +64,5 @@ body {
 
 h5 {
     text-align: center;
+    color:azure;
 }
