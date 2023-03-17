@@ -1,19 +1,13 @@
-body{/*estilizando a body*/
+body {
+    background-color: #222020;
+    color: whitesmoke;
     text-align: center;
-    background-color: #242424;
-    color: white;
     
-}
-#botao{/*estilizando a body*/
-    background-color: #8bb7fb;
-}
-#botao:hover{/*alterando cor do botão quando passa o cursor por cima*/
-    background-color: white;
-    opacity: 0.30;
 }
 header {
     display: flex;
     padding: 0%;
+    background-color: black;
 }
 a {
     text-decoration: whitesmoke;
@@ -64,8 +58,6 @@ article{
     float: left;
 
 }
-#footerfb{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#iconmenu{
+    border: none;
 }
