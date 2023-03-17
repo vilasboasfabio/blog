@@ -1,3 +1,4 @@
+/* estilização da estruta*/
 form div {
     display: flex;
     margin: auto;
@@ -5,18 +6,18 @@ form div {
     width: 50%;
     font-family: sans-serif;
 }
-
+/* estilização das caixas de texto em geral*/
 input {
     margin: 4%;
 }
-
+/* estilização da caixa de texto do e-mail e do nome*/
 #caixatext1 {
     width: 90%;
     height: 10%;
     padding: 5%;
     border: 0;
 }
-
+/*estilização de botão de enviar*/
 form button {
     width: 100%;
     background: transparent;
@@ -29,7 +30,7 @@ form button {
 
 
 }
-
+/* estilização do botão de enviar quando passamos o ponteiro em cima*/
 form button:hover {
     background: whitesmoke;
     color: black;
@@ -42,18 +43,18 @@ form button:hover {
     text-shadow: 30% 30% rgba(33, 33, 33, 0.36);
     color: moccasin;
 }
-
+/* estilização do título principal*/
 body {
     background-color: #101026;
     color: whitesmoke;
     height: 100%;
 }
-
+/* estilização dos títulos das caixas de texto*/
 #label {
     font-family: 'Times New Roman', Times, serif;
     margin-top: 5%;
 }
-
+/* estilização da caixa de texto do comentário*/
 #mensag {
     width: 70%;
     height: 10%;
@@ -61,14 +62,14 @@ body {
     padding-right: 30%;
     border: 0;
 }
-
+/* estilização dos itens presentes na article*/
 article {
     width: 60%;
     margin: auto;
     height: 100vh;
     background-color: #1d1d2e;
 }
-
+/* estilização geral*/
 * {
     padding: 0%;
     margin: 0;
