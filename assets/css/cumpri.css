@@ -99,3 +99,21 @@ h3 {
 .hobbies:hover {
     cursor:pointer;
 }
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+}
+
+#logos {
+    margin: auto;
+}
+
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
