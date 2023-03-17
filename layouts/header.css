@@ -1,0 +1,45 @@
+header {
+    height: 100%;
+    width:100%;
+    background-color:black;
+    position:fixed; 
+} /*para estilizar o header e o manter fixado nas paginas sem mudar sua posição*/
+
+* {
+    padding:0;
+    margin:0;
+} /*tirar as margens e o espaço extra de todos os blocos*/
+
+#logos {
+    margin-top:1%;
+} /*separar as logos do topo da pagina*/
+
+#logo1 {
+    margin-left:40%;
+    padding:+1px;
+    border-radius: 1000px;
+} /*deixar a imagem redonda,centralizar e a aumentar um pouco para corrigir erros*/
+
+#logo2 {
+    float:right;
+    animation: loading 1s alternate;
+} /*encaixar a logo na direita e a deixar girando*/
+
+#logo2:hover {
+    animation: loading 1s  linear infinite;
+} /*faz a animação girar quando o mouse está em cima*/
+
+#logo1:hover {
+    border-radius: 1000px;
+    background-color: white;
+    transition: background-color 2s;
+} /*faz a logo ter uma pequena transição no background para mostrar que passou em cima*/
+
+@keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+} /*indicar o quanto a imagem roda definido pela % da animation*/
