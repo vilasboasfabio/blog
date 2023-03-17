@@ -119,11 +119,11 @@ h5 {
 }
 
 #nome {
-    margin:1%;
+    margin:2%;
 }
 
 #comentario {
-    margin:1%;
+    margin:2%;
     text-align: justify;
 }
 
@@ -135,4 +135,8 @@ h5 {
 
 .sec123 {
     cursor:pointer;
+}
+
+#estrela1 {
+    background-color: white;
 }
