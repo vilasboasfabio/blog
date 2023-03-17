@@ -1,107 +1,66 @@
-.org-noticia {
+header {
     display: flex;
-} /*organizar as noticias de maneira alinhada lateralmente*/
+    background-color: black;
+}
 
-#sec-1 {
-    box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
-    -webkit-box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
-    -moz-box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
-    border:5px #121d38 ridge;
-    background-color:#141414;
-    color:white;
-    margin:4%;
-} /*adição de uma shadow atrás da caixa principal, adição de borda e alteração da cor das letras e do fundo*/
+#iconr {
+    float: right;
+}
 
-#p-1 {
-    text-align:justify;
-    margin-left:1%;
-} /*deixar o texto alinhado e com espaçamento das bordas*/
+#logos {
+    margin: auto;
+}
 
-#noticia-1 {
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
+
+body {
+    background-color: #222020;
+    color: whitesmoke;
+}
+
+#enemimg {
+    float:left;
+}
+
+#title-E {
     margin:1%;
-    border:3px whitesmoke solid;
-    text-align:left;
-}/*borda da imagem e distanciamento dos cantos da caixa*/
+    color:azure;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-.noticia-123456 {
-    background-color: #141414;
-    border: 5px #121d38 ridge;
+#text-E {
+    margin:1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+#principal1 {
+    width: 80%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+}
+
+#sepimg {
+
+}
+
+#title-P {
     margin:5%;
     text-align: center;
-    color: white;
-    width:30%;
-    height:200px;
-    text-decoration:none;
-    box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
-    -webkit-box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
-    -moz-box-shadow: 0px 0px 32px 4px rgba(255,255,255,0.39);
-} /*adição de uma shadow box nas noticias, alteração da cor da letra, limitação de tamanho, altura, deixar alinhado ao centro, cor de fundo e borda azul*/
+    color:azure;
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
+}
 
-.noticia-123456:hover {
-    width:33%;
-    height:220px;
-} /*aumentar levemente ao passar o mouse em cima*/
-
-body {
-    background-color:#040404;
-} /*cor do corpo todo*/
-
-#noticia-2 {
-    border-radius:10px;
-    border:5px #121d38 ridge;
-} /*arredondamento e adição de borda*/
-
-.comentarios {
-    display: flex;
-} /*deixar os comentarios alinhados lateralmente*/
-
-#textos123456 {
-    background-color: #343434;
-    width:30%;
-    margin:2%;
-    color: white;
-    border-left:5px #121d38 ridge;
-    border-radius: 10px;
-    display:inline;
-} /*deixalos um na frente do outro, deixar redondo colocar uma borda na esquerda definir tamanho, cor de fundo e distanciamento*/
-
-#data-1 {
-    display: flex;
-} /*deixar os elementos alinhados lateralmente*/
-
-h6 {
-    text-align: right;
-    margin:0;
-    margin-right:1%;
-    margin-bottom:1%;
-    padding:0;
-} /*deixar o texto na direita, sem margin padding e distanciamento do topo e do chão*/
-
-h4 {
-    margin-left: 2%;
-} /*aumenta distanciamento da esquerda*/
-
-.foto-e-nome {
-    display:flex;
-} /*alinhas os elementos lateralmente*/
-
-#foto-p {
-    border:3px #8bb7fb solid;
-    border-radius:1000px;
-    margin:1%;
-} /*colocar uma foto para o comentario, e deixala redonda e distante dos demais elementos*/
-
-.msg-data {
-    display:flex;
-} /*alinhas os elementos lateralmente*/
-
-.msg {
-    margin: 2%;
-    margin-top:-1%;
-    text-align: justify;
-} /*justificar o texto de maneira a alinhalo e distancia-lo das bordas*/
-
-body {
-    margin:0;
-    padding:0;
-} /*definir o tamanho extra e a margem do body para 0 ou seja nulo*/
+h5 {
+    text-align: center;
+}
