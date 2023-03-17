@@ -1,98 +1,76 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+/* estilização da estruta*/
+form div {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
     font-family: sans-serif;
 }
-body{
-    margin:  0 auto;
-    align-items: center;
-    background: #101026;
-    justify-content: center;
-    background: #140f07;
-
+/* estilização das caixas de texto em geral*/
+input {
+    margin: 4%;
 }
-section{
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px 45px;
-    background: #1d1d2e;
-    width: 500px;
+/* estilização da caixa de texto do e-mail e do nome*/
+#caixatext1 {
+    width: 90%;
+    height: 10%;
+    padding: 5%;
+    border: 0;
 }
-section h2{
-    color: #f5f5f5;
-    font-size: 2.5rem;
-    margin: 2rem;
-}
-section form{
-    display: flex;
-    flex-direction: column;
+/*estilização de botão de enviar*/
+form button {
     width: 100%;
-}
-form label{
-    color: #f5f5f5;
-    font-size: 19px;
-}
-form input{
-    padding: 15px;
-    outline: none;
-    border: 0;
-    margin-bottom: 20px;
-}
-form textarea{
-    padding: 10px;
-    outline: none;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 30px;
-}
-
-form button{
-    padding: 15px;
-    font-size: 16px;
     background: transparent;
-    border: 2px solid #577de2;
-    color: #f5f5f5;
-    transition: all 1s;
-    margin-bottom: 20px;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    margin-left: 4%;
+    padding: 15px;
+
+
 }
-form button:hover{
-    background: #f5f5f5;
-    color: #101026;
-    border-radius: 16px;
+/* estilização do botão de enviar quando passamos o ponteiro em cima*/
+form button:hover {
+    background: whitesmoke;
+    color: black;
 }
 
-/*Página do Obrigado*/
-
-.main{
-   align-items: center;
-   justify-content: center;
-   min-height: 100vh;
-   background: #101026;
-   flex-direction: column;
+#h1 {
+    font-size: 300%;
+    text-align: center;
+    margin: 5%;
+    text-shadow: 30% 30% rgba(33, 33, 33, 0.36);
+    color: moccasin;
 }
-.text{
-    font-size: 45px;
-    color: #f5f5f5;
-    margin-bottom: 30px;
+/* estilização do título principal*/
+body {
+    background-color: #101026;
+    color: whitesmoke;
+    height: 100%;
 }
-.paragrafo{
-    color: #f5f5f5;
-    margin-bottom: 50px;
+/* estilização dos títulos das caixas de texto*/
+#label {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
 }
-.btn{
-    padding: 15px 55px;
-    background: #f5f5f5;
-    text-decoration: none;
-    color: #101026;
-    font-size: 18px;
-    transition: all 0.5s;
+/* estilização da caixa de texto do comentário*/
+#mensag {
+    width: 70%;
+    height: 10%;
+    padding-bottom: 30%;
+    padding-right: 30%;
+    border: 0;
 }
-
-.btn:hover{
-    border-radius: 16px;
+/* estilização dos itens presentes na article*/
+article {
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    background-color: #1d1d2e;
 }
-
-#footer-1 {
-    margin-bottom:-5px;
+/* estilização geral*/
+* {
+    padding: 0%;
+    margin: 0;
 }
