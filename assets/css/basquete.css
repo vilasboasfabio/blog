@@ -5,7 +5,7 @@ body {
 }
 
 #pa01 {
-    color: rgb(216, 120, 179);
+    color:whitesmoke;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -73,7 +73,7 @@ section {
 #pa04 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
 }
 
 #art02:hover {
@@ -85,7 +85,7 @@ section {
 
 #pa05 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
     margin-left: 1%;
 }
 
@@ -115,7 +115,7 @@ section {
 
 #sa03 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
     margin-left: 1%;
 }
 
@@ -136,7 +136,7 @@ section {
 #sa01 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(216, 120, 179);
+    color:whitesmoke;
 }
 
 #art04 {
@@ -158,7 +158,7 @@ section {
 
 #ba03 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
     margin-left: 1%;
 }
 
@@ -179,13 +179,7 @@ section {
 #ba01 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(216, 120, 179);
-}
-
-#tit1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
 }
 
 #art05 {
@@ -213,12 +207,6 @@ section {
     border: outset whitesmoke;
 }
 
-#para01 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
-}
-
 #ba10 {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -231,7 +219,7 @@ section {
 
 #ba11 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -264,7 +252,7 @@ section {
 #pa06 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
 }
 
 #ba6 {
@@ -279,7 +267,7 @@ section {
 
 #papa06 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -318,7 +306,7 @@ section {
 #pa07 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
 }
 
 #ba07 {
@@ -333,7 +321,12 @@ section {
 
 #papa07 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: whitesmoke;
     margin-left: 1%;
     margin-bottom: 2%;
+}
+
+#pa08 {
+    color: whitesmoke;
+    text-align: center;
 }
