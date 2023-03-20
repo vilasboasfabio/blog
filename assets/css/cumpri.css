@@ -61,6 +61,8 @@ body {
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     border-radius:5%;
     background-color: #141212;
+    margin-top: 5%;
+    height: 50%;
 } /*deixar os elementos centralizados, com luz de fundo, background diferente e tamanho especifico*/
 
 * {
