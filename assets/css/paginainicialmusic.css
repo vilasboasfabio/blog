@@ -142,7 +142,7 @@ h2 {
 }
 h5 {
     color: #257683;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-bottom: 0%;
 }
 #mainnews0 {
@@ -191,4 +191,15 @@ border: none;
 #veigh{
     height: 4.5cm;
     width: 5cm;
+    margin-top: 25%;
+}
+#coldplay{
+margin-top: 25%;
+height: 4.5cm;
+}
+a:hover{
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all 1.0s;
+    cursor: pointer;
 }
