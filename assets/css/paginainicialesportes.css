@@ -4,11 +4,7 @@ body {
     background-color: #222020;
 }
 
-#pa01 {
-    color:whitesmoke;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 #art01 {
     background-color: #141212;
@@ -20,11 +16,6 @@ body {
     margin: 5%;
 }
 
-#pa02 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
 
 #img01 {
     text-align: center;
@@ -49,11 +40,6 @@ section {
     border-radius: 5%;
 }
 
-#pa03 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
 
 #img02 {
     text-align: center;
@@ -70,11 +56,6 @@ section {
     width: 33%;
 }
 
-#pa04 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: whitesmoke;
-}
 
 #art02:hover {
     background-color: #5c5757;
@@ -83,11 +64,6 @@ section {
     cursor: pointer;
 }
 
-#pa05 {
-    text-align: left;
-    color: whitesmoke;
-    margin-left: 1%;
-}
 
 #art01:hover {
     background-color: #5c5757;
@@ -107,11 +83,7 @@ section {
     width: 33%;
 }
 
-#sa02 {
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
-}
+
 
 #sa03 {
     text-align: left;
@@ -133,11 +105,7 @@ section {
     border: outset whitesmoke;
 }
 
-#sa01 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color:whitesmoke;
-}
+
 
 #art04 {
     background-color: #141212;
@@ -249,11 +217,7 @@ section {
     border: outset whitesmoke;
 }
 
-#pa06 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-}
+
 
 #ba6 {
     color: whitesmoke;
@@ -303,11 +267,7 @@ section {
     border: outset whitesmoke;
 }
 
-#pa07 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
-}
+
 
 #ba07 {
     color: whitesmoke;
@@ -329,4 +289,11 @@ section {
 #pa08 {
     color: whitesmoke;
     text-align: center;
+}
+#pnt2 {
+    text-align: center;
+}
+h2 {
+    color: #267683;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
