@@ -2,7 +2,9 @@ body {
     align-items: center;
 }
 .carrossel {
-  box-shadow: 5px 5px 10px black;
+    
+    
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
   overflow: hidden;
   height: 500px;
   width: 500px;
@@ -26,5 +28,6 @@ body {
     margin-left: 31%;
     margin-top: 3%;
    align-items: center;
+   
   
 }
