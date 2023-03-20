@@ -1,0 +1,160 @@
+body {
+    background-color: #222020;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+section {
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+}
+
+main{
+    display: flex;
+}
+
+h1{
+    color: #257683;
+    font-family: Bernard MT Condensed;
+}
+
+h4 {
+    color: #257683;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#h1princ{
+    margin-top: 5%;
+}
+
+#h51 {
+    text-align: left;
+    color: #257683;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+#art01 {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    width: 33%;
+}
+
+#art01:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+#artprinc {
+    background-color: #141212;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 7%;
+    margin: 5%;
+    
+}
+
+#img01 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+
+    margin-left: 42%;
+
+}
+
+#art02 {
+    background-color: #141212;
+    margin: 5%;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217, 214, 217, 0.28);
+    align-items: center;
+    border-radius: 5%;
+}
+
+#img02 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+#art02 {
+    width: 33%;
+}
+
+
+
+#art02:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+#artprinc:hover {
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+#img03 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+#img04 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+#img05 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+#art05 {
+    width: 33%;
+}
+
+#img06 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
+
+#art06 {
+    width: 33%;
+}
+
+#img07 {
+    text-align: center;
+    margin: 2%;
+    align-items: center;
+    border: outset whitesmoke;
+}
