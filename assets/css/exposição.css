@@ -1,0 +1,53 @@
+.comments123 {
+    width: 33%;
+    margin: auto;
+    -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
+    background-color: black;
+    padding:1%;
+    border-radius: 5%;
+    margin:2%;
+    display:flex;
+}
+
+#comments {
+    display:flex;
+    margin-top:5%;
+}
+
+#perfil {
+    border:3px white ridge;
+    border-radius:100px;
+}
+
+#estrela {
+    background-color: yellow;
+}
+
+#nome {
+    margin:2%;
+}
+
+#comentario {
+    margin:2%;
+    text-align: justify;
+}
+
+#borderestrela {
+    text-align: center;
+    border:3px gray ridge;
+    margin-top:1%;
+}
+
+.sec123 {
+    cursor:pointer;
+}
+
+#estrela1 {
+    background-color: white;
+}
+
+#footer-1 {
+    margin-bottom:-5px ;
+}
