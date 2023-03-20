@@ -80,6 +80,7 @@ article{
 }
 #imgm {
     margin-right: 15%;
+    height: 3cm;
 }
 
 #main1 {
@@ -174,4 +175,10 @@ img {
 }
 #iconmenu{
 border: none;
+}
+a:hover{
+    background-color: #5c5757;
+    outline: double whitesmoke;
+    transition: all 1s;
+    cursor: pointer;
 }
