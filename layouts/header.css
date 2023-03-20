@@ -1,39 +1,160 @@
-header {
-    height: 100%;
-    width:100%;
-    background-color:black;
-    position:fixed; 
-} /*para estilizar o header e o manter fixado nas paginas sem mudar sua posição*/
 
 * {
-    padding:0;
-    margin:0;
-} /*tirar as margens e o espaço extra de todos os blocos*/
+    padding: 0;
+    margin: 0;
+}
+
+.linkl {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.linkl:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+
+#bb1{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#ulprinc {
+    list-style: none;
+    top: 70px;
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    background-color: rgba(00, 00, 00, 1);
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    left: -250px;
+    transition: all 1.0s;
+}
+
+input[type="checkbox"]:checked~nav {
+    transform: translateX(250px);
+
+}
+
+label {
+    position: absolute;
+    padding: 15px;
+    z-index: 1;
+}
+
+.seta{
+    width: 10px;
+    top:84px;
+    margin-left:5% ;
+
+}
+
+
+.sub-menu{
+    display: none;
+    margin-left: 10%;
+    background-color: black;
+    }
+nav ul li:hover .sub-menu{
+    display: block;
+    }
+nav ul li:hover .sub-menu ul{
+    display: block;
+}
+nav ul li:hover .sub-menu ul li{
+    width: 225px;
+   transition: 10.0s;
+}
+ul{
+    list-style: none;
+    transition: all 1s;
+}
+li{
+    list-style: none;
+    background-color: black;
+}
+img {
+    border: none;
+}
+
+#header0 {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: auto;
+    display: flex;
+}
+#header01{
+    width: 20%;
+    margin-top: auto;
+}
+#imgheader0 {
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader2{
+    width: 50%;
+    float: right;
+    margin-bottom: 0%;
+}
+#escritalogo {
+    margin-left: 10%;
+    border: none;
+    
+}
+#desenho {
+   float: right;
+   border: none;
+}
+#bltmenu {
+    border: none;
+    float: left;
+}
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+#iconr {
+    float: right;
+    animation: loading 1s alternate;
+    border-radius: 100px;
+}
 
 #logos {
-    margin-top:1%;
-} /*separar as logos do topo da pagina*/
+    margin: auto;
+}
 
-#logo1 {
-    margin-left:40%;
-    padding:+1px;
-    border-radius: 1000px;
-} /*deixar a imagem redonda,centralizar e a aumentar um pouco para corrigir erros*/
+#logoc {
+    margin-left: 43%;
+    margin-top: 1%;
+}
 
-#logo2 {
-    float:right;
-    animation: loading 1s alternate;
-} /*encaixar a logo na direita e a deixar girando*/
+.logol {
+    padding:-200px;
+}
 
-#logo2:hover {
-    animation: loading 1s  linear infinite;
-} /*faz a animação girar quando o mouse está em cima*/
-
-#logo1:hover {
-    border-radius: 1000px;
-    background-color: white;
-    transition: background-color 2s;
-} /*faz a logo ter uma pequena transição no background para mostrar que passou em cima*/
+#iconr:hover {
+    animation: loading 1s linear infinite;
+}
 
 @keyframes loading {
 	0% {
@@ -42,4 +163,4 @@ header {
 	100% {
 		transform: rotate(360deg);
 	}
-} /*indicar o quanto a imagem roda definido pela % da animation*/
+}
