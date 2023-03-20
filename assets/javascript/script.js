@@ -11,7 +11,7 @@ function sair() {
     destaque1.style.backgroundColor = '#141212'
     destaque1.style.outline = 'none'
     destaque1.style.transition = '1s'
-    destaque1.style.scale = '1.0'
+    destaque1.style.scale = 'none'
 }
 
 function passar1() {
@@ -27,7 +27,7 @@ function sair1() {
     destaque2.style.backgroundColor = '#141212'
     destaque2.style.outline = 'none'
     destaque2.style.transition = '1s'
-    destaque2.style.scale = '1.0'
+    destaque2.style.scale = 'none'
 }
 
 function passar2() {
@@ -43,7 +43,7 @@ function sair2() {
     destaque3.style.backgroundColor = '#141212'
     destaque3.style.outline = 'none'
     destaque3.style.transition = '1s'
-    destaque3.style.scale = '1.0'
+    destaque3.style.scale = 'none'
 }
 
 function passar3() {
@@ -59,7 +59,7 @@ function sair3() {
     destaque4.style.backgroundColor = '#141212'
     destaque4.style.outline = 'none'
     destaque4.style.transition = '1s'
-    destaque4.style.scale = '1.0'
+    destaque4.style.scale = 'none'
 } 
 
 function passar4() {
@@ -75,5 +75,5 @@ function sair4() {
     destaque5.style.backgroundColor = '#141212'
     destaque5.style.outline = 'none'
     destaque5.style.transition = '1s'
-    destaque5.style.scale = '1.0'
+    destaque5.style.scale = 'none'
 }
