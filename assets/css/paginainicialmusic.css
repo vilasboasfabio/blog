@@ -197,7 +197,7 @@ border: none;
 margin-top: 25%;
 height: 4.5cm;
 }
-a:hover{
+.a1:hover{
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all 1.0s;
