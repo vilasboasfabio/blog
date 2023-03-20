@@ -6,6 +6,7 @@ p {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
+    margin-top: 10%;
 }
 
 section {
@@ -35,7 +36,7 @@ h4 {
 
 #h51 {
     text-align: left;
-    color: #257683;
+    color: azure;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -70,12 +71,9 @@ h4 {
 }
 
 #img01 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
+    margin-left: 35%;
+    margin-right: 35% ;
     border: outset whitesmoke;
-
-    margin-left: 42%;
 
 }
 
