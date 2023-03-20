@@ -1,12 +1,5 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    display: flex;
+body {
     align-items: center;
-    justify-content: center;
-    margin: 0%;
-    min-height: 100vh;
 }
 .carrossel {
   box-shadow: 5px 5px 10px black;
@@ -19,12 +12,19 @@ body{
     transition: transform 0.7s ease-in-out;
     transform: translateX(0);
 }
-img{
+#immg{
     object-fit: cover;
     height: 500px;
     width: 500px;
+    border: none;
+    border-radius: 0%;
+    margin: auto;
+    margin-left: -3%;
+    margin-right: -3%;
 }
-p{
-    font-display: flex;
-    flex-direction: column;
+#mm{
+    margin-left: 29%;
+    margin-top: 3%;
+   align-items: center;
+  
 }
