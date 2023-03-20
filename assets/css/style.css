@@ -71,10 +71,11 @@ h5 {
 #not123 {
     display:flex;
     margin-bottom:5%;
+    margin-left:10%;
 }
 
 .sec123 {
-    width: 30%;
+    width: 40%;
     margin: auto;
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -143,4 +144,8 @@ h5 {
 
 #footer-1 {
     margin-bottom:-5px ;
+}
+
+p {
+    color:whitesmoke;
 }
