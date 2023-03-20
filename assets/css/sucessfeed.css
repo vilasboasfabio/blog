@@ -21,3 +21,8 @@ body {
 #footer1 {
     margin-bottom:-5px;
 }
+header{
+    background-color: black;
+    display: flex;
+    padding: 0;
+}
