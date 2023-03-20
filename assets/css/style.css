@@ -45,7 +45,7 @@ body {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    background-color: black;
+    background-color: #141212;
     padding:1%;
     border-radius: 5%;
     margin:10%;
@@ -79,7 +79,7 @@ h5 {
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
-    background-color: black;
+    background-color: #141212;
     padding:1%;
     border-radius: 5%;
     margin:2%;
@@ -139,4 +139,8 @@ h5 {
 
 #estrela1 {
     background-color: white;
+}
+
+#footer-1 {
+    margin-bottom:-5px ;
 }
