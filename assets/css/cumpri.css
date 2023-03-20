@@ -62,6 +62,7 @@ body {
     border-radius:5%;
     background-color: #141212;
     margin-top: 5%;
+    height: 50%;
 } /*deixar os elementos centralizados, com luz de fundo, background diferente e tamanho especifico*/
 
 * {
