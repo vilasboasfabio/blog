@@ -3,9 +3,9 @@ body {
 }
 
 #pa01 {
-    color: rgb(216, 120, 179);
+    color: #257683;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Bernard MT Condensed;
 }
 
 #art01 {
@@ -61,7 +61,7 @@ section {
     border: outset whitesmoke;
 }
 
-#main02 {
+#mainn02 {
     display: flex;
 }
 
@@ -72,7 +72,7 @@ section {
 #pa04 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #art02:hover {
@@ -84,7 +84,7 @@ section {
 
 #pa05 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
 }
 
@@ -114,7 +114,7 @@ section {
 
 #sa03 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
 }
 
@@ -135,7 +135,7 @@ section {
 #sa01 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #art04 {
@@ -157,7 +157,7 @@ section {
 
 #ba03 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
 }
 
@@ -178,13 +178,13 @@ section {
 #ba01 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #tit1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #art05 {
@@ -230,7 +230,7 @@ section {
 
 #ba11 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -263,7 +263,7 @@ section {
 #pa06 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #ba6 {
@@ -278,7 +278,7 @@ section {
 
 #papa06 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -317,7 +317,7 @@ section {
 #pa07 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #ba07 {
@@ -332,7 +332,7 @@ section {
 
 #papa07 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -340,7 +340,7 @@ section {
 #lit10 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #main04 {
@@ -375,7 +375,7 @@ section {
 #pa08 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #ba08 {
@@ -390,7 +390,7 @@ section {
 
 #papa08 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -423,7 +423,7 @@ section {
 #pa09 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #ba09 {
@@ -438,7 +438,7 @@ section {
 
 #papa09 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -471,7 +471,7 @@ section {
 #pa10 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(216, 120, 179);
+    color: #257683;
 }
 
 #ba10 {
@@ -486,7 +486,7 @@ section {
 
 #papa10 {
     text-align: left;
-    color: rgb(216, 120, 179);
+    color: #257683;
     margin-left: 1%;
     margin-bottom: 2%;
 }
