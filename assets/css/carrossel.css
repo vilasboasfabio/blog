@@ -24,3 +24,7 @@ img{
     height: 500px;
     width: 500px;
 }
+p{
+    font-display: flex;
+    flex-direction: column;
+}
