@@ -79,6 +79,7 @@ article{
 }
 #imgm {
     margin-right: 15%;
+    margin-top: 10%;
 }
 
 #main1 {
@@ -174,3 +175,7 @@ img {
 #iconmenu{
 border: none;
 }
+#noticiainicial{
+    margin-top: 20%;
+}
+
