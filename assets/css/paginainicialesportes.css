@@ -295,5 +295,20 @@ section {
 }
 h2 {
     color: #267683;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+#main02 {
+    display: flex;
+    flex-direction: column;
+    background-color: #141212;
+    align-items: center;
+
+}
+#art05 {
+    width: 80%;
+    display: flex;
+}
+#title1{
+    font-family: Bernard MT Condensed;
+    font-size: 38px;
 }
