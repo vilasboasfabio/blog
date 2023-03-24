@@ -64,3 +64,8 @@ body {
 #im1im2 {
     display: flex;
 }
+#title1{
+    width: 60%;
+    font-size: 60px;
+    color: azure;
+}
