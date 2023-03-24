@@ -107,7 +107,7 @@ main{
     padding: none;
 }
 p {
-    
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
 }
@@ -123,13 +123,13 @@ p {
 }
 h2 {
     margin-top: 5%;
-    color: #257683;
+    color: azure;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 h5 {
-    color: #257683;
+    color: azure;
     margin-top: 10%;
     margin-bottom: 0%;
 }
