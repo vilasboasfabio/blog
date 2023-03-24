@@ -71,6 +71,8 @@ body {
 
 #footer-1 {
     margin-bottom:-5px;
+    bottom: 0;
+    left: 0;
 } /*colamento do footer ao chão da pagina*/
 
 p {
