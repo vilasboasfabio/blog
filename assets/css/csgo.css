@@ -43,57 +43,51 @@ article{
     width: 50%;
     float: right;
     margin-bottom: 0%;
-}
+} /*margem baixa anulada e flutuação na direita com widht 100%*/
 #escritalogo {
     margin-left: -70%;
     border: none;
-    
-}
+} /*borda anulada e margem na esquerda aumentada*/
 #desenho {
    float: right;
    border: none;
-}
+}  /*encaixe da img na direita*/
 #bltmenu {
     border: none;
     float: left;
-
-}
+} /*encaixe do menu na esquerda*/
 .banner1 {
     display: flex;
     margin: auto;
-    
-}
+} /*display em linha e margem automatica*/
 .banner1:hover{
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all 1s;
     cursor: pointer;
-}
+} /*hover do baner mudando cor de fundo e cursor*/
 #bannerprincipal {
     display: flex;
     background-color: #141212;
-    margin: 5%;
-    
+    margin: 5%; 
     border-radius: 5%;
-    
-}
+} /*borda arredondada e distanciamento distanciamento em linha*/
 #imgm {
     margin-right: 15%;
-}
+} /*distanciamento na direita*/
 
 #main1 {
     display: flex;
     margin:auto;
-}
+} /*disposição em linha e margem automatica*/
 main{
     text-align: center;
     margin: 0%;
-
-}
+} /*distanciamento cancelado*/
 #title1 {
     font-family: Bernard MT Condensed;
     font-size: 38px;
-}
+}/*tamanho da letra*/
 #news{
     width: 100%;
     align-items: center;
@@ -101,54 +95,50 @@ main{
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
-}
+} /*borda arredondada e distanciamento geral com cor de fundo*/
 #news:hover {
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;
-}
+} /*hover com mudança de cursor e de cor de fundo*/
 #section01{
     margin: 5%;
     padding: none;
-}
+} /*nenhum padding e distanciamento geral ao redor*/
 p {
-    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
-  
-}
+} /*justificação do texto*/
 #ppp {
     margin-left: 5%;
     margin-right: 5%;
-}
+} /*distanciamento lateral*/
 #mainnews {
     margin: auto;
     text-align: justify;
     margin-top: 2%;
     margin-bottom: 2%;
-   
-}
+} /*distanciamento altitudinal e justificação do texto*/
 h2 {
     margin-top: 5%;
     color: #577de2;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-}
+} /*adição de margem em baixo e em cima altitudinal e cor da letra*/
 h5 {
     color: #304c89;
     margin-top: 3%;
-}
+} /*distanciamento no topo e cor do texto*/
 #mainnews0 {
     margin-left: 3%;
     margin-right: 3%;
-}
+} /*distanciamento lateral do item*/
 #linha0 {
     width: 100%;
     height: 8px;
-}
-
+} /*defnição do tamanho do item*/
 .lastnews {
     display: flex;
     margin: 5%;
@@ -156,35 +146,33 @@ h5 {
     align-items: center;
     text-align: center;
     border-radius: 5%;
-}
+} /*distanciamente geral ao redor item e display em linha background color ealinhamento dos itens do negocio */
 .lastnews:hover{
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;
-}
+} /*alteração no cursor e cor de fundo junto com o hover*/
 #main02 {
     background-color: #141212;
     margin: auto;
-
-
-}
+} /*distanciamento automatico com definição na cor de fundo*/
 #imgnews2 {
     margin: 2%;
-}
+} /*distanciamento geral ao redor do item*/
 img {
     border-radius: 3%;
     border: whitesmoke outset;
-}
+} /*definição do tamanho e cor da borda com arrendodamento da mesma*/
 #imgm{
     height: 10%;
-}
+} /*tamanho da imagem definida para 10%*/
 #iconmenu{
     border: none;
-}
+} /*borda removida */
 #noticiainicial{
     margin-top: 20%;
-}
+} /*distanciamento na altitude*/
 .desce{
     margin-top: 25%;
-}
+} /*distanciamento altitudinal*/
