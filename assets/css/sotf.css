@@ -93,6 +93,7 @@ main{
 #title1 {
     font-family: Bernard MT Condensed;
     font-size: 38px;
+    color: #257683;
 }
 #news{
     width: 100%;
@@ -131,13 +132,13 @@ p {
 }
 h2 {
     margin-top: 5%;
-    color: #577de2;
+    color: #257683;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 h5 {
-    color: #304c89;
+    color: #257683;
     margin-top: 3%;
 }
 #mainnews0 {
