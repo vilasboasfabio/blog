@@ -8,11 +8,6 @@
     display: flex;
     padding: 0%;
 }
-/*Adição da cor aos conteúdos linkados à alguma página*/a {
-    text-decoration: whitesmoke;
-    color: whitesmoke;
-    margin: 0%;
-}
 /*Estilização do box shadow dos banners*/article{
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -92,12 +87,6 @@ main{
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
-}
-/*Estilização do efeito rsponsivo ao repouso do mouse nos banner das demias notícias*/#news:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
 }
 /*Ajustes do posicionamento da section das noticias*/#section01{
     margin: 5%;

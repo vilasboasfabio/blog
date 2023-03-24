@@ -94,6 +94,7 @@ main{
 #title1 {
     font-family: Bernard MT Condensed;
     font-size: 38px;
+    color: #257683;
 }
 #news{
     width: 100%;
@@ -130,12 +131,12 @@ p {
 }
 h2 {
     margin-top: 5%;
-    color: #577de2;
+    color: #257683;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h5 {
-    color: #304c89;
+    color: #257683;
     margin-top: 3%;
 }
 #mainnews0 {
@@ -177,5 +178,42 @@ border: none;
 }
 #noticiainicial{
     margin-top: 20%;
+}
+/*Ajustes na estilização do header.*/header {
+    background-color: black;
+    margin-bottom: 0%;
+   padding: -5%;
+}
+
+
+/*Posicionamento do footer*/#footer1 {
+    margin-bottom:-5px;
+}
+
+/*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
+    margin-left:5%;
+}
+/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    margin-bottom: 0%;
+
+}
+/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/#link1:hover {
+    background-color: black;
+}
+/*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    font-size: small;
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas*/#estrela {
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas vazias*/#estrela1 {
+    margin: 0%;
 }
 

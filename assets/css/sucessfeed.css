@@ -26,3 +26,33 @@ header{
     display: flex;
     padding: 0;
 }
+/*estilização de botão de enviar*/
+#botao {
+    width: 10%;
+    background: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+}
+/* estilização do botão de enviar quando passamos o ponteiro em cima*/
+#botao:hover {
+    background: #d6d5d5;
+    color: black;
+    border: solid #333333;
+}
+#rodape{
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+
+}
+#img{
+    margin-top: -20px;
+}
+
