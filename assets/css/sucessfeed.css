@@ -35,8 +35,6 @@ header{
     margin: auto;
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
-
 }
 /* estilização do botão de enviar quando passamos o ponteiro em cima*/
 #botao:hover {
@@ -44,3 +42,17 @@ header{
     color: black;
     border: solid #333333;
 }
+#rodape{
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+
+}
+#img{
+    margin-top: -20px;
+}
+
