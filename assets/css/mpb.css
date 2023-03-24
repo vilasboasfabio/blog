@@ -7,6 +7,12 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
 }
+#p1{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin-top: 10%;
+}
 
 section {
     align-items: center;
@@ -35,7 +41,7 @@ h4 {
 
 #h51 {
     text-align: left;
-    color: #257683;
+    color: azure;
     margin-left: 1%;
     margin-bottom: 2%;
 }
@@ -70,13 +76,8 @@ h4 {
 }
 
 #img01 {
-    text-align: center;
-    margin: 2%;
-    align-items: center;
-    border: outset whitesmoke;
-
-    margin-left: 42%;
-
+    margin-left: 34%;
+    margin-right: 34% ;
 }
 
 #art02 {
@@ -157,4 +158,8 @@ h4 {
     margin: 2%;
     align-items: center;
     border: outset whitesmoke;
+}
+#imgrap1{
+    margin-left: 30%;
+    margin-right: 30%;
 }
