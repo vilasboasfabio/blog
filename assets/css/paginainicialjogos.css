@@ -179,4 +179,41 @@ border: none;
 #noticiainicial{
     margin-top: 20%;
 }
+/*Ajustes na estilização do header.*/header {
+    background-color: black;
+    margin-bottom: 0%;
+   padding: -5%;
+}
+
+
+/*Posicionamento do footer*/#footer1 {
+    margin-bottom:-5px;
+}
+
+/*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
+    margin-left:5%;
+}
+/*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    margin-bottom: 0%;
+
+}
+/*Estilizção do efeito reponsivo do repouso do mouse ao selecionar o link, o efeito foi alterado para neutralizar o branquiamento do background.*/#link1:hover {
+    background-color: black;
+}
+/*Ajustes nas dimensões e posicionamentos dos comentários de usuarios na página*/#comments {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    font-size: small;
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas*/#estrela {
+    margin: 0%;
+}
+/*Ajuste do posicionamento das estrelas vazias*/#estrela1 {
+    margin: 0%;
+}
 
