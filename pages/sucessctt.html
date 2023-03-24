@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <meta charset="UTF-8">
-    <link href="../assets/css/sucessfeed.css" rel="stylesheet" type="text/css"/>
-   <link href="../assets/css/noticiaobb.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/sucessfeed.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/noticiaobb.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="../assets/css/menu.css" type="text/css">
     <title>Formulario enviado!</title>
 </head>
@@ -11,7 +12,7 @@
 <body>
     <!--puxando header-->
     <header>
-        
+            
         <div id="header0">
             <p id="imgheader"><img src="../assets/images/escrita.png" alt="logo com a escrita da equipe"
                     id="escritalogo" height="74" width="205"></p>
@@ -31,27 +32,14 @@
 
         <li >
         
-            <a href="#">Esporte <img class="seta" src="../assets/images/seta-baixo.png" /></a>
+            <a href="esportes/paginaicialesportes.html">Esporte <img class="seta" src="../assets/images/seta-baixo.png" /></a>
             <div class="sub-menu">
             <ul>
-                <li><a href="#">Basquete</a></li>
-                <li><a href="#">Volei</a></li>
-                <li><a href="#">Futebol</a></li>
-                <li><a href="#">Notícia</a></li>
+                <li><a href="esportes/basquete.html">Basquete</a></li>
+                <li><a href="esportes/volei.html">Volei</a></li>
+                <li><a href="esportes/futebol.html">Futebol</a></li>
             </ul>
             </div>
-        </li>
-
-        <li>
-            <a href="#">Moda<img class="seta" src="../assets/images/seta-baixo.png"></a>
-            <div class="sub-menu">
-                <ul id="ul-moda">
-                    <li><a href="#">História da moda</a></li>
-                    <li><a href="#">Estilos</a></li>
-                    <li><a href="#">Savaoir-faire</a></li>
-                    <li><a href="#">Notícia</a></li>
-                </ul>
-         </div>
         </li>
 
         <li>
@@ -60,7 +48,6 @@
                 <ul id="ul-submenu">
                     <li><a href="#">Livros</a></li>
                     <li><a href="#">Autores</a></li>
-                    <li><a href="#">Notícia</a></li>
                 </ul>
             </div>
         </li>
@@ -72,7 +59,6 @@
                     <li><a href="#">Valorant</a></li>
                     <li><a href="#">CS:GO</a></li>
                     <li><a href="#">Sons of yhe forest</a></li>
-                    <li><a href="#">Notícia</a></li>
                 </ul>
             </div>
         </li>
@@ -81,10 +67,9 @@
             <a href="#">Música <img class="seta" src="../assets/images/seta-baixo.png"></a></a>
             <div class="sub-menu">
                 <ul id="ul-submenu">
-                    <li><a href="#">Funk</a></li>
+                    <li><a href="#">MBP</a></li>
                     <li><a href="#">Trap</a></li>
                     <li><a href="#">Pop</a></li>
-                    <li><a href="#">Notícia</a></li>
                 </ul>
             </div>
         </li>
@@ -96,21 +81,20 @@
                     <li><a href="#">Exposição</a></li>
                     <li><a href="#">Artistas do nosso cotidiano</a></li>
                     <li><a href="#">Arte de rua</a></li>
-                    <li><a href="#">Notícia</a></li>
                 </ul>
             </div>
         </li>
 
         <li>
-            <a href="#">Vestibular <img class="seta" src="../assets/images/seta-baixo.png"></a></a>
-            <div class="sub-menu">
-                <ul id="ul-submenu">
-                    <li><a href="#">Roteiro de estudo</a></li>
-                    <li><a href="#">Redação</a></li>
-                    <li><a href="#">Universidades</a></li>
-                    <li><a href="#">Notícia</a></li>
-                </ul>
-            </div>
+            <a href="#">Vestibular</a>
+        </li>
+
+        <li>
+            <a href="#">Feedback</a>
+        </li>
+
+        <li>
+            <a href="#">Contato</a>
         </li>
 
     </ul>
@@ -119,17 +103,43 @@
     </header>
    
     </div>
-    <!--puxando header-->
-    <!--imagem para melhor identificação-->
-    <img src="../assets/images/Emoji-Verified-Instagram-Transparent-Image.png" width="256" height="256" id="img">
-    <!--indicando que formulário foi entregue-->
-    <h1>Formulário enviado!</h1>
-     <!--botão para voltar ao inicio do site-->
-    <form action="../index.html">
-        <input type="submit" value="Voltar ao Inicio" id="botao">
-    </form>
-    <!--chamando footer-->
-    <iframe src="../layouts/footer.html" width="100%" scrolling="no" frameborder="no" id="rodape"></iframe>
-    
+<!--header com menu lateral-->
+
+<div class="content">
+    <!--colocando menu lateral p funcionar-->
+</div>
+<div id="menu" class="menu effect">
+    <nav>
+        <div style="text-align: right;">
+            <button id="btnclose">X</button>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Moda</a></li>
+            <li><a href="#">Arte</a></li>
+            <li><a href="#">Musica e Cinema</a></li>
+            <li><a href="#">Literatura</a></li>
+            <li><a href="#">Vestibulares</a></li>
+        </ul>
+    </nav>
+</div>
+
+<script src="../assets/java/script.js"></script>
+
+</div>
+<!--puxando header-->
+<!--imagem para melhor identificação-->
+<img src="../assets/images/Emoji-Verified-Instagram-Transparent-Image.png" width="256" height="256" id="img">
+<!--indicando que formulário foi entregue-->
+<h1>Formulário enviado!</h1>
+<!--botão para voltar ao inicio do site-->
+<form action="../index.html">
+    <input type="submit" value="Voltar ao Inicio" id="botao">
+</form>
+<!--chamando footer-->
+<iframe src="../layouts/footer.html" width="100%" scrolling="no" frameborder="no" id="rodape"></iframe>
+
 </body>
+
 </html>
