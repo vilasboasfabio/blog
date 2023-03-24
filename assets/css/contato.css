@@ -32,8 +32,9 @@ form button {
 }
 /* estilização do botão de enviar quando passamos o ponteiro em cima*/
 form button:hover {
-    background: whitesmoke;
+    background: #d6d5d5;
     color: black;
+    border: solid #333333;
 }
 
 #h1 {
@@ -41,11 +42,11 @@ form button:hover {
     text-align: center;
     margin: 5%;
     text-shadow: 30% 30% rgba(33, 33, 33, 0.36);
-    color: moccasin;
+    color: azure;
 }
 /* estilização do título principal*/
 body {
-    background-color: #101026;
+    background-color: #333333;
     color: whitesmoke;
     height: 100%;
 }
@@ -67,7 +68,7 @@ article {
     width: 60%;
     margin: auto;
     height: 100vh;
-    background-color: #1d1d2e;
+    background-color: black;
 }
 /* estilização geral*/
 * {
