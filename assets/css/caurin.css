@@ -32,6 +32,7 @@ body {
     text-align: center;
     margin:4%;
     font-family:Bernard MT Condensed;
+    color: #257683;
 } /*deixar o texto centralizado, definir distancia das bordas e fonte*/
 
 #skate1 {
@@ -70,6 +71,8 @@ body {
 
 #footer-1 {
     margin-bottom:-5px;
+    bottom: 0;
+    left: 0;
 } /*colamento do footer ao chão da pagina*/
 
 p {
@@ -90,6 +93,7 @@ h3 {
     margin:3%;
     font-family:Trebuchet MS;
     font-size:22px;
+    color: #257683;
 } /*aumento de distancia e mudança na fonte*/
 
 #sobre1:hover {
@@ -116,4 +120,7 @@ header {
 #logoc {
     margin-left: 43%;
     margin-top: 1%;
+}
+h1{
+    color: #257683;
 }
