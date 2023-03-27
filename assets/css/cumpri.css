@@ -134,3 +134,9 @@ header {
     margin-bottom: 0%;
 
 }
+#sobrenostit {
+    text-align: center;
+    margin:4%;
+    font-family:Bernard MT Condensed;
+    color: #257683;
+}
