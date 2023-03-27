@@ -63,12 +63,7 @@
     margin: auto;
     
 }
-/*hover do banner*/.banner1:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-}
+
 /*banner principal*/#bannerprincipal {
     display: flex;
     background-color: #141212;
@@ -100,12 +95,7 @@
     margin: 5%;
     border-radius: 5%;
 }
-/*sombra hover*/#news:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
+
 /*primeira section*/#section01{
     margin: 5%;
     padding: 10%;
