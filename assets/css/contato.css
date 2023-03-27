@@ -16,6 +16,7 @@ input {
     height: 10%;
     padding: 5%;
     border: 0;
+    margin-top: 10%;
 }
 /*estilização de botão de enviar*/
 form button {
@@ -53,7 +54,7 @@ body {
 /* estilização dos títulos das caixas de texto*/
 #label {
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 5%;
+   margin-bottom: 100%;
 }
 /* estilização da caixa de texto do comentário*/
 #mensag {
@@ -62,6 +63,7 @@ body {
     padding-bottom: 30%;
     padding-right: 30%;
     border: 0;
+    margin-top: 10%;
 }
 /* estilização dos itens presentes na article*/
 article {
