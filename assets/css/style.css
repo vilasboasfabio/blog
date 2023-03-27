@@ -177,3 +177,7 @@ h1 {
     margin-bottom: 5%;
     font-family: Bernard MT Condensed;
 }
+#pcar {
+    display: flex;
+    flex-direction: column;
+}
