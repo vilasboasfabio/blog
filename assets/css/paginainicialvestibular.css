@@ -8,11 +8,6 @@
     display: flex;
     padding: 0%;
 }
-/*Adição da cor aos conteúdos linkados à alguma página*/a {
-    text-decoration: whitesmoke;
-    color: whitesmoke;
-    margin: 0%;
-}
 /*Estilização do box shadow dos banners*/article{
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
@@ -93,12 +88,6 @@ main{
     margin: 5%;
     border-radius: 5%;
 }
-/*Estilização do efeito rsponsivo ao repouso do mouse nos banner das demias notícias*/#news:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
 /*Ajustes do posicionamento da section das noticias*/#section01{
     margin: 5%;
     padding: 10%;
@@ -114,15 +103,15 @@ main{
     margin-right: 5%;
 }
 /*Ajuste da estilizçã das noticias principais*/#mainnews {
-    margin: auto;
+    margin: 5%;
     text-align: justify;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
    
 }
 /*Estilização da fonte e cores dos títulos*/h2 {
     margin-top: 5%;
-   color: #257683;
+   color: azure;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -179,6 +168,7 @@ main{
 }
 
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
+    margin: 5%;
     margin-left:5%;
 }
 /*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
@@ -203,4 +193,12 @@ main{
 }
 /*Ajuste do posicionamento das estrelas vazias*/#estrela1 {
     margin: 0%;
+}
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+ul{
+    background-color: black;
 }

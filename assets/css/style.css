@@ -112,7 +112,7 @@ h5 {
 
 #perfil {
     border:3px white ridge;
-    border-radius:100px;
+    border-radius:1000px;
 }
 
 #estrela {
@@ -148,4 +148,19 @@ h5 {
 
 p {
     color:whitesmoke;
+}
+.comments1{
+    text-align: center;
+}
+a{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: whitesmoke;
+}
+li {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+#artt{
+    box-shadow: none;
 }

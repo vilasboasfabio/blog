@@ -69,3 +69,13 @@ body {
     font-size: 60px;
     color: azure;
 }
+p {
+    margin: 3%;
+}
+main{
+    box-shadow: none;
+}
+article{
+    margin-bottom: 3%;
+    box-shadow: none;
+}

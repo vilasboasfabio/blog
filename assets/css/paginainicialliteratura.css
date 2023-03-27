@@ -110,8 +110,8 @@
     margin: 5%;
     padding: 10%;
 }
-/*paragrafos*/p {
-    
+p {
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
   
@@ -129,13 +129,13 @@
 }
 /*h2 geral*/h2 {
     margin-top: 5%;
-    color: #f0ffff;
+    color: azure;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-/*h5 geral*/h5 {
-    color: #304c89;
+h5 {
+    color: azure;
     margin-top: 3%;
 }
 /*main noticias*/#mainnews0 {
