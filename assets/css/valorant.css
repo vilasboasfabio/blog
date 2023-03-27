@@ -1,24 +1,24 @@
-body {
+body {/*alterando cor do body*/
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
     
 }
-header {
+header {/*fixando a header*/
     display: flex;
     padding: 0%;
     background-color: black;
 }
-a {
+a {/*decorando os links*/
     text-decoration: whitesmoke;
     color: whitesmoke;
 }
-article{
+article{/*sombra nos articles*/
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
-#header0 {
+#header0 {/*alinhando tudo*/
     width: 50%;
     height: 100%;
     align-items: center;
@@ -26,17 +26,22 @@ article{
     margin-top: auto;
     display: flex;
 }
-#header01{
+#header01{/*alinhando tudo*/
     width: 20%;
     margin-top: auto;
 }
-#imgheader0 {
+#imgheader0 {/*alinhndo tudo*/
     margin: auto;
     margin-bottom: 0%;
 }
-#imgheader {
+#imgheader {/*alinhando tudo*/
     width: 50%;
     margin: auto;
+    margin-bottom: 0%;
+}
+#imgheader2{/*alinhando tudo*/
+    width: 50%;
+    float: right;
     margin-bottom: 0%;
 }
 #imgheader2{
