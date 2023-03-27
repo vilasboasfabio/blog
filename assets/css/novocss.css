@@ -64,8 +64,9 @@ img {
     border-left:5px ridge #257683;
 }
 a{
- margin-left: -10%;
+ margin-right: 0;
 }
 #gif{
     border: outset whitesmoke;
+    margin-left: 11%;
 }
