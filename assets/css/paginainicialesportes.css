@@ -28,7 +28,7 @@ section {
     align-items: center;
     text-align: center;
     margin: 1%;
-}/*section*/
+}/*section margin,texto feito*/
 
 #art02 {
     background-color: #141212;
@@ -46,11 +46,11 @@ section {
     margin: 2%;
     align-items: center;
     border: outset whitesmoke;
-}/*iamgem*/
+}/*imagem margin,border*/
 
 #main02 {
     display: flex;
-}/*main*/
+}/*main colocando articles*/
 
 #art02 {
     width: 33%;
@@ -89,7 +89,7 @@ section {
     text-align: left;
     color: whitesmoke;
     margin-left: 1%;
-}
+}/*texto estilizado*/
 
 #art03:hover {
     background-color: #5c5757;
@@ -103,7 +103,7 @@ section {
     margin: 2%;
     align-items: center;
     border: outset whitesmoke;
-}/*iamgem*/
+}/*imagem*/
 
 
 
@@ -116,13 +116,13 @@ section {
     border-radius: 7%;
     margin: 5%;
     width: 33%;
-}/*articles*/
+}/*articles feitos*/
 
 #ba02 {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
-}
+}/*texto estilizado*/
 
 #ba03 {
     text-align: left;
@@ -179,11 +179,11 @@ section {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
-}
+}/*texto feito*/
 
 #art05 {
     width: 33%;
-}
+}/*articles*/
 
 #ba11 {
     text-align: left;
@@ -227,7 +227,7 @@ section {
 
 #art06 {
     width: 33%;
-}
+}/*articles estilizados*/
 
 #papa06 {
     text-align: left;
