@@ -43,6 +43,7 @@ form button:hover {
     margin: 5%;
     text-shadow: 30% 30% rgba(33, 33, 33, 0.36);
     color: azure;
+    margin-left: 10%;
 }
 /* estilização do título principal*/
 body {
@@ -83,7 +84,9 @@ article {
 .imgmar {
     display:flex;
     margin-left:30%;
-    margin-top:-16%;
+    margin-top:5%;
+    margin-bottom: 2%;
+    flex-direction: row;
 }
 
 #estrela2 {
@@ -112,7 +115,7 @@ article {
 }
 
 #buttão {
-    margin-top:17%
+    margin-top:0%
 }
 
 #espaço {
