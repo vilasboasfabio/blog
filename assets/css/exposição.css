@@ -51,3 +51,11 @@
 #footer-1 {
     margin-bottom:-5px ;
 } /*colagem do footer*/
+
+header {
+    height: 75px;
+}
+
+#imgheader {
+    margin-top:-1.5%;
+}
