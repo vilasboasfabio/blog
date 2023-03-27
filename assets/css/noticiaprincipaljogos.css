@@ -1,34 +1,34 @@
-article {
+article {/*arrumando as articles*/
     margin: 5%;
     border-radius: 3%;
     text-align: center;
 }
-p{
+p{/*arrumando o paragrafo*/
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 3%;
 }
-img {
+img {/*arrumando imagem*/
     margin: 3%;
 }
-h3{
+h3{/*arrumando h3*/
     margin-top: 3%;
     margin-bottom: 3%;
     color: burlywood;
     font-size: 22px;
     color: #257683;
 }
-#siteobb {
+#siteobb {/*tirando a bordar*/
     border: none;
 }
-#siteobb:hover {
+#siteobb:hover {/*colocando hover para ficar esteticamente bonito*/
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;;
     
 }
-#desenho{
+#desenho{/*colocando a imagem o canto*/
     margin-left: 70%;
 }
 /*Ajustes na estilização do header.*/header {
