@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!--linkar o css da pagina a ela-->
     <link rel="icon" type="image/x-icon" href="assets/images/logo2.png">
     <link rel="stylesheet" href="../assets/css/menu.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!--linkar o css da pagina à ela-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/testecarousel.css" type="text/css"><!--linkar o css da pagina à ela-->
 
     <!--deixar o icone da pagina como a logo da nossa equipe-->
     <link rel="stylesheet" type="text/css" href="layouts/header.css">
@@ -131,24 +132,32 @@
 </header>
 
 </div>
+<main id="mmm">
+    <h1>Ultimas Noticias</h1>
+    <article>
+        <section id="sccr">
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image" id="bto"><</button>
+        <button class="arrow-rigth control" aria-label="Next image" id="bto">></button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="assets/images/Captura de tela 2023-03-27 103145.png" class="item current-item" width="20%" alt="">
+                <a href="pages/noticiaobb.html"><img src="assets/images/Enem2023.png" alt="banner da noticia" class="item" ></a>
+              <a href="pages/literatura/noticiaa1.html"><img src="assets/images/kindle.webp" alt="banner da noticia" class="item"></a>
+               <a href="pages/musica/noticiashakira.html"><img src="assets/images/shakira-world-record-billboard-1548.webp" alt="banner da noticia" class="item "></a>
+               <a href="pages/arte/exposição.html"><img src="assets/images/exposições.jfif" alt="banner da noticia" class="item "></a>
+               <a href="pages/jogos/noticiaprincipaljogos.html"> <img src="assets/images/novo-mapa-fortnite.jfif" alt="banner da noticia" class="item "></a>
+                <a href="pages/esportes/noticiaesporte1.html"><img src="assets/images/noticia-secundaria.jpg" alt="banner da noticia" class="item "></a>
+           <img src="assets/images/Captura de tela 2023-03-27 103145.png" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+</article>
+</main>
+<script src="assets/javascript/carouseltest.js"></script>
     <main>
         <article id="artt">
-            <h1 id="title-P">Novidades!</h1>
-            <a href="pages/paginainicialvest.html">
-                <section id="principal1" onmouseenter="passar()" onmouseleave="sair()">
-                    <div id="sepimg">
-                        <img src="assets/images/Enem2023.png" height="30%" width="30%" id="enemimg">
-                        <div id="juntext">
-                            <h2 id="title-E">Enem 2023 saiba de tudo!</h2>
-                            <p id="text-E">O Enem de 2023 veio cheio de possibilidades para sua redação, saiba mais em
-                                nossa página exclusivamente para o Enem com uma leitura apropriada é possível se
-                                preparar o máximo Para o tão aguardado vestibular brasileiro.
-                            </p>
-                            <h5>publicado em: 17/03/2023</h5>
-                        </div>
-                    </div>
-                </section>
-            </a>
             <div id="not123">
                 <a href="pages/musica/noticiashakira.html" class="sec123" id="sec2">
                     <section id="sec2" onmouseenter="passar2()" onmouseleave="sair2()">
@@ -160,7 +169,7 @@
                 <a href="pages/literatura/noticiaa2.html" class="sec123" id="sec3">
                     <section id="sec3" onmouseenter="passar3()" onmouseleave="sair3()">
                         <h2>Venda de ebooks salta 83% em 2020 e revela força dos livros digitais na pandemia.</h2>
-                        <img src="assets/images/livrosfisicos.jpg" width="200px" height="200px">
+                        <img src="assets/images/kindle.webp" width="200px" height="200px">
                         <p id="just-p">Com as pessoas passando mais tempo dentro de casa, o período antes dedicado ao deslocamento pôde
                             ser empenhado em outras atividades, dentre elas a leitura.</p>
                     </section>

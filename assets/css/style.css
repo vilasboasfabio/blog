@@ -164,3 +164,18 @@ a{
 #artt{
     box-shadow: none;
 }
+#mmm {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#sccr {
+    position: relative;
+    margin-bottom: -5%;
+}
+.gallery{
+    margin: auto;
+    margin-top: 12%;
+}
+h1 {
+    margin-bottom: 5%;
+}
