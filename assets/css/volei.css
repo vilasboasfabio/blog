@@ -1,18 +1,18 @@
 * {
     margin:0;
     padding:0;
-}
+}/*padding e margin*/
 
 #volei1 {
     width: 25%;
     margin: 4%;
     border-radius: 3%;
     border: whitesmoke outset;
-}
+}/*volei quase pronto trocar width,border*/
 
 #title-h2 {
     text-align: center;
-}
+}/*title h2 estilizado*/
 
 #par1 {
     text-align: justify;
@@ -23,7 +23,7 @@
 body {
     background-color: #222020;
     color:whitesmoke;
-}
+}/*estilizar body*/
 
 #hist {
     text-align: center;
@@ -36,7 +36,7 @@ body {
     margin-bottom:5%;
     background-color: #141212;
     border-radius: 5%;
-}
+}/* texto estilizado,margin,background,color,width,box-shadow*/
 
 #regras1 {
     text-align: center;
@@ -49,17 +49,17 @@ body {
     margin-bottom:5%;
     background-color: #141212;
     border-radius: 5%;
-}
+}/*regras width,margin,box-shadow,border,moz-box-shadow*/
 
 #p-regras {
     text-align: justify;
     margin:2%;
     padding:2%;
-}
+}/*regras*/
 
 #footer1 {
     margin-bottom:-10px;
-}
+}/*footer*/
 
 #im1im2 {
     display: flex;
@@ -68,14 +68,14 @@ body {
     width: 60%;
     font-size: 60px;
     color: azure;
-}
+}/*title1*/
 p {
     margin: 3%;
 }
 main{
     box-shadow: none;
-}
+}/*main box shadow*/
 article{
     margin-bottom: 3%;
     box-shadow: none;
-}
+}/*articles feitos*/
