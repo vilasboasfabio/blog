@@ -111,7 +111,7 @@ main{
     padding: 10%;
 }
 p {
-    
+    font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: justify;
   
@@ -129,13 +129,13 @@ p {
 }
 h2 {
     margin-top: 5%;
-    color: #f0ffff;
+    color: azure;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 h5 {
-    color: #304c89;
+    color: azure;
     margin-top: 3%;
 }
 #mainnews0 {

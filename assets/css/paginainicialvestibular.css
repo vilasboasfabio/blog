@@ -103,15 +103,15 @@ main{
     margin-right: 5%;
 }
 /*Ajuste da estilizçã das noticias principais*/#mainnews {
-    margin: auto;
+    margin: 5%;
     text-align: justify;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
    
 }
 /*Estilização da fonte e cores dos títulos*/h2 {
     margin-top: 5%;
-   color: #257683;
+   color: azure;
     margin-bottom: 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -168,6 +168,7 @@ main{
 }
 
 /*Ajuste no posicionamneto da logo com a escrita da equipe.*/#img1 {
+    margin: 5%;
     margin-left:5%;
 }
 /*Alteração na estilização do link adicionado à imagem do loco com escrita, no centro do header.*/#link1{
@@ -192,4 +193,12 @@ main{
 }
 /*Ajuste do posicionamento das estrelas vazias*/#estrela1 {
     margin: 0%;
+}
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+ul{
+    background-color: black;
 }
