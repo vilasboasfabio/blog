@@ -273,7 +273,7 @@ section {
     color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
-}
+}/*texto estilizado*/
 
 #art07 {
     width: 33%;
@@ -289,7 +289,7 @@ section {
 #pa08 {
     color: whitesmoke;
     text-align: center;
-}
+}/*texto*/
 #pnt2 {
     text-align: center;
 }
@@ -307,6 +307,7 @@ h2 {
 #art05 {
     width: 80%;
     display: flex;
+    /*articles*/
 }
 #title1{
     font-family: Bernard MT Condensed;
