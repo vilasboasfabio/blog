@@ -1,23 +1,23 @@
-body {
+/*estilização de fundo do site*/body {
     background-color: #222020;
     color: whitesmoke;
     text-align: center;
    
 }
-header {
+/*concerto do header*/header {
     display: flex;
     padding: 0%;
 }
-a {
+/*cores paragrafo*/a {
     text-decoration: whitesmoke;
     color: whitesmoke;
 }
-article{
+/*fundo colorido dos articles*/article{
     -webkit-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     -moz-box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
     box-shadow: 10px 14px 23px 5px rgba(217,214,217,0.28);
 }
-#header0 {
+/*header principal*/#header0 {
     width: 50%;
     height: 100%;
     align-items: center;
@@ -25,88 +25,78 @@ article{
     margin-top: auto;
     display: flex;
 }
-#header01{
+/*tamanho header*/#header01{
     width: 20%;
     margin-top: auto;
 }
-#imgheader0 {
+/*imagem header*/#imgheader0 {
     margin: auto;
     margin-bottom: 0%;
 }
-#imgheader {
+/*imagem header*/#imgheader {
     width: 50%;
     margin: auto;
     margin-bottom: 0%;
 }
-#imgheader2{
+/*imagem header*/#imgheader2{
     width: 50%;
     float: right;
     margin-bottom: 0%;
 }
-#escritalogo {
+/*escrita do logo*/#escritalogo {
     margin-left: 10%;
     margin-left: 30%;
     border: none;
     
 }
-#desenho {
+/*desenho header*/#desenho {
    float: right;
    border: none;
 }
-#bltmenu {
+/*menu*/#bltmenu {
     border: none;
     float: left;
 
 }
-.banner1 {
+/*banner1*/.banner1 {
     display: flex;
     margin: auto;
     
 }
-.banner1:hover{
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all 1s;
-    cursor: pointer;
-}
-#bannerprincipal {
+
+/*banner principal*/#bannerprincipal {
     display: flex;
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
     
 }
-#imgm {
+/*estilização imagem*/#imgm {
     margin-left: 6%;
 }
 
-#main1 {
+/*main 1 estilização*/#main1 {
     display: flex;
     margin:auto;
 }
-main{
+/*main 2 estilização*/main{
     text-align: center;
    
 
 }
-#title1 {
+/*primeiro titulo*/#title1 {
     font-family: Bernard MT Condensed;
     font-size: 38px;
 }
-#news {
+/*noticias*/#news {
     width: 33%;
     text-align: center;
     background-color: #141212;
     margin: 5%;
     border-radius: 5%;
 }
-#news:hover {
-    background-color: #5c5757;
-    outline: double whitesmoke;
-    transition: all .6s;
-    cursor: pointer;
-}
-#section01{
+
+/*primeira section*/#section01{
     margin: 5%;
     padding: 10%;
 }
@@ -116,18 +106,18 @@ p {
     text-align: justify;
   
 }
-#ppp {
+/*paragrafo*/#ppp {
     margin-left: 5%;
     margin-right: 5%;
 }
-#mainnews {
+/*main das noticias*/#mainnews {
     margin: auto;
     text-align: justify;
     margin-top: 2%;
     margin-bottom: 2%;
    
 }
-h2 {
+/*h2 geral*/h2 {
     margin-top: 5%;
     color: azure;
     margin-bottom: 3%;
@@ -138,16 +128,16 @@ h5 {
     color: azure;
     margin-top: 3%;
 }
-#mainnews0 {
+/*main noticias*/#mainnews0 {
     margin-left: 3%;
     margin-right: 3%;
 }
-#linha0 {
+/*linhas*/#linha0 {
     width: 93%;
     height: 8px;
 }
 
-.lastnews {
+/*ultima noticia*/.lastnews {
     display: flex;
     margin: 5%;
     background-color: rgb(34, 32, 32) ;
@@ -155,36 +145,36 @@ h5 {
     text-align: center;
     border-radius: 5%;
 }
-.lastnews:hover{
+/*hover ultima noticia*/.lastnews:hover{
     background-color: #5c5757;
     outline: double whitesmoke;
     transition: all .6s;
     cursor: pointer;
 }
-#main02 {
+/*main 2*/#main02 {
     background-color: #141212;
     margin: auto;
 
 
 }
-#imgnews2 {
+/*imagem noticia 2*/#imgnews2 {
     margin: 2%;
 }
-img {
+/*imagem geral*/img {
     border-radius: 3%;
     border: whitesmoke outset;
 }
 
-header {
+/*header*/header {
     background-color: black;
 }
 
 
-#footer1 {
+/*footer*/#footer1 {
     margin-bottom:-5px;
 }
 
-#img1 {
+/*imagem 1*/#img1 {
     margin-left:5%;
 }
 
